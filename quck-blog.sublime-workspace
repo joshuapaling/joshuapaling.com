@@ -1,0 +1,2339 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ta",
+				"ta:l	text-align:left"
+			],
+			[
+				"bo",
+				"box-shadow (single)	Compass"
+			],
+			[
+				"$av",
+				"$availabilities"
+			],
+			[
+				"dis",
+				"disabled_link"
+			],
+			[
+				"Expor",
+				"ExportComponent"
+			],
+			[
+				"$empl",
+				"$employeeId"
+			],
+			[
+				"_se",
+				"_supervisorOrAdminIndex"
+			],
+			[
+				"is_n",
+				"is_numeric"
+			],
+			[
+				"Rew",
+				"RewardOrder"
+			],
+			[
+				"Em",
+				"Employee"
+			],
+			[
+				"cak",
+				"cakeset	cake-set-variable"
+			],
+			[
+				"$emp",
+				"$employeeId"
+			],
+			[
+				"$rew",
+				"$rewardId"
+			],
+			[
+				"fw",
+				"fw:n	font-weight:normal"
+			],
+			[
+				"box-s",
+				"box-shadow	Compass"
+			],
+			[
+				"tt",
+				"tt:n	text-transform:none"
+			],
+			[
+				"lin",
+				"linear-fade"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"bor",
+				"border-radius (top)	Compass"
+			],
+			[
+				"tal",
+				"tal:l	text-align-last:left"
+			],
+			[
+				"strt",
+				"strtolower"
+			],
+			[
+				"box",
+				"box-shadow	Compass"
+			],
+			[
+				"pos",
+				"pos:r	position:relative"
+			],
+			[
+				"ST",
+				"STATUS_ACCEPTED"
+			],
+			[
+				"tac",
+				"ta:c	text-align:center"
+			],
+			[
+				"lo",
+				"lowercase"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"f",
+				"fun	function …"
+			],
+			[
+				"array_m",
+				"array_merge"
+			],
+			[
+				"_",
+				"_getTaskToSubregionJoins"
+			],
+			[
+				"$job",
+				"$jobId"
+			],
+			[
+				"$jo",
+				"$jobId"
+			],
+			[
+				"str",
+				"strtolower"
+			],
+			[
+				"TITL",
+				"TITLE_MERCHANDISER"
+			],
+			[
+				"con",
+				"containingDay"
+			],
+			[
+				"redirec",
+				"redirectToProfileEdit"
+			],
+			[
+				"$na",
+				"$navPurple"
+			],
+			[
+				"text-sh",
+				"text-shadow"
+			],
+			[
+				"al",
+				"alert"
+			],
+			[
+				"Emplo",
+				"employees"
+			],
+			[
+				"box-sh",
+				"box-shadow (single)	Compass"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"Defa",
+				"DefaultAvailability"
+			],
+			[
+				"vertical",
+				"vertical-align"
+			],
+			[
+				"border",
+				"border-radius	Compass"
+			],
+			[
+				"$da",
+				"$dayAsText"
+			],
+			[
+				"$ava",
+				"$availability"
+			],
+			[
+				"fs",
+				"fs	font-size"
+			],
+			[
+				"fl",
+				"fl:r	float:right"
+			],
+			[
+				"inline",
+				"inline-block	Compass"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"TITLE",
+				"TITLE_ADMIN"
+			],
+			[
+				"TIT",
+				"TITLE_TEAM_LEADER"
+			],
+			[
+				"STATUS",
+				"STATUS_ACTIVE"
+			],
+			[
+				"strrep",
+				"str_replace"
+			],
+			[
+				"$su",
+				"$supervisorId"
+			],
+			[
+				"$ch",
+				"$channelId"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"if",
+				"if?	$… = ( … ) ? … : …"
+			],
+			[
+				"rel",
+				"relative"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"arra",
+				"array"
+			],
+			[
+				"or",
+				"order"
+			],
+			[
+				"$sub",
+				"$suburb"
+			],
+			[
+				"tr",
+				"trim"
+			],
+			[
+				"$loc",
+				"$locationNameUpper"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"fo",
+				"foreach	foreach …"
+			],
+			[
+				"$post",
+				"$postcodeId"
+			],
+			[
+				"ar",
+				"array"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"ready",
+				"ready	$(document).ready"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "spec/features/reading_blog_spec.rb",
+			"settings":
+			{
+				"buffer_size": 592,
+				"line_ending": "Unix",
+				"name": "features/reading_blog_spec.rb"
+			}
+		},
+		{
+			"file": "spec/features/post_comments_spec.rb",
+			"settings":
+			{
+				"buffer_size": 482,
+				"line_ending": "Unix",
+				"name": "post_comments_spec.rb"
+			}
+		},
+		{
+			"contents": "<h2>About Me</h2>\n<p>Hi! I'm Joss. I'm learning rails.</p>\n<p>I have the following questions to ask at #DevHub</p>\n\n0. Should I use rails 4, or wait some time for gems etc to be upgraded?\n<br /><br />\n\n0b. rspec spec/features <- how do I get it to work with devise?\n<br /><br />\n\n1. So every time you want to start up a rails server, you have to cd and then rails s. So you can't just start your computer and have all projects available instantly ala MAMP?\n<br /><br />\n\n1b. Do most people use Pow? If not, is every project at localhost:3000? ANy way to have separate URLs?\n<br /><br />\n\n2. Is there a good free PostGres admin tool? And do you ever design in a DB admin tool first, then create a migrate file second?\n<br /><br />\n\n3. Any way to log in as any user with Activ Admin or Devise?\n<br /><br />\n\n4. Any way to step through / debug code? What do people normally do?\n<br /><br />\n\n5. any easy way to look at code in gems (including rails source) and eg. temporarily add a debug message or something?\n<br /><br />\n\n6. What happens when you don't specify a version number for a gem (ala devise in this app)\n<br /><br />\n\n7. How to delete records from my SqlLite DB?\n<br /><br />\n\n8. Extend form helper - eg. adding label/field pairs, with class names, etc.\n<br /><br />\n\n9. Helpers - you just always get all of them? Define your own? Are they objects?\n<br /><br />\n\n10. All the commands that you have to run like bundle install etc. Do you have to do that manually after each upload to the server?\n<br /><br />\n\n11. In reality, do you write tests for code so simple? Or this is just as an example?\n<br /><br />\n\n11b. I often write one test that fails, and one that passes, as a single test. Is this bad or good?\n<br /><br />\n\n12. Any way to run tests in the browser, not in the terminal?\n<br /><br />\n\n13. http://rubydoc.info/gems/rspec-expectations/frames\n\nactual.should( be >  expected)<br />\nactual.should be >= expected<br />\nactual.should be <= expected<br />\nactual.should be <  expected<br />\nactual.should be_within(delta).of(expected)<br />\n<br />What is all this? Which are params? What are the comparison operators? Params?\n\n14. Auto refresh browser on save ala CodeKit\n<br /><br />\n",
+			"file": "app/views/pages/about.html.erb",
+			"file_size": 2200,
+			"file_write_time": 1372756641000000,
+			"settings":
+			{
+				"buffer_size": 2200,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "spec/models/post_spec.rb",
+			"settings":
+			{
+				"buffer_size": 472,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/posts_controller.rb",
+			"settings":
+			{
+				"buffer_size": 479,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/_header.html.erb",
+			"settings":
+			{
+				"buffer_size": 849,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/layouts/application.html.erb",
+			"settings":
+			{
+				"buffer_size": 416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/devise/registrations/edit.html.erb",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": ".gitignore",
+			"settings":
+			{
+				"buffer_size": 430,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "class Post < ActiveRecord::Base\n  attr_accessible :body, :title\n\n  has_many :comments\n\n  validates_presence_of :body, :title\nend\n",
+			"file": "app/models/post.rb",
+			"file_size": 131,
+			"file_write_time": 1367933464000000,
+			"settings":
+			{
+				"buffer_size": 129,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/models/comment.rb",
+			"settings":
+			{
+				"buffer_size": 120,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"ind",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inde",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"vcs",
+				"SFTP: Upload VCS Changed Files"
+			],
+			[
+				"lower",
+				"Convert Case: Lower Case"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"code fold",
+				"Code Folding: Fold Tag Attributes"
+			],
+			[
+				"indent",
+				"Indentation: Convert to Tabs"
+			],
+			[
+				"uppa",
+				"Convert Case: Upper Case"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package install",
+				"Package Control: Install Package"
+			],
+			[
+				"set s jq",
+				"Set Syntax: jQuery (JavaScript)"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"package con",
+				"Package Control: Install Package"
+			],
+			[
+				"package control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"package control in",
+				"Package Control: Install Package"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"toggle op",
+				"View: Toggle Open Files in Side Bar"
+			]
+		],
+		"width": 561.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/config/initializers/devise.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/spec/spec_helper.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/spec/models/comment_spec.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/views/layouts/application.html.erb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/views/layouts/_header.html.erb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/views/devise/registrations/new.html.erb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/spec/features/managing_posts_spec.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/Gemfile",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/models/user.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/db/migrate/20130702065804_move_admin_notes_to_comments.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/spec/models/post_spec.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/views/pages/about.html.erb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/config/environments/development.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/views/posts/index.atom.builder",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/views/posts/show.html.erb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/controllers/comments_controller.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/assets/stylesheets/foundation_and_overrides.css.scss",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/assets/stylesheets/application.css",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/controllers/pages_controller.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/controllers/posts_controller.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/views/posts/_post.html.erb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/views/posts/index.html.erb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/config/environments/production.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/config/locales/devise.en.yml",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/config/routes.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/views/devise/sessions/new.html.erb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/views/devise/registrations/edit.html.erb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/models/comment.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/models/post.rb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/public/about.html",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/views/layouts/_footer.html.erb",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/assets/stylesheets/common.css.scss",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/assets/stylesheets/foundation_and_overrides.scssDDDDD",
+		"/Users/joshuapaling/dev/rails_installfest/quick_blog/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/Users/joshuapaling/Library/Application Support/Sublime Text 2/Packages/User/HTML (Rails).sublime-settings",
+		"/Users/joshuapaling/Library/Application Support/Sublime Text 2/Packages/User/Ruby.sublime-settings",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/webroot/scss/frontend.scss",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/webroot/scss/admin/admin.scss",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/webroot/css/generated/frontend.css",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Elements/subnav_merch_signup.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Layouts/admin.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Elements/admin/nav2_my_account.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Employees/select_region_radios.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/webroot/scss/_rewards.scss",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Model/ScheduleBlock.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Model/Employee.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Employees/employee_edit_profile.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/AvailabilitiesController.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/webroot/scss/_manage_availability.scss",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Availabilities/merch_index.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/AppController.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/.editorconfig",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/webroot/scss/_base.scss",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Model/Subregion.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Model/Availability.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Model/Task.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Layouts/default.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/DefaultAvailabilities/edit_default_availability.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/DefaultAvailabilitiesController.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Model/DefaultAvailability.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/tmp/logs/error.log",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Elements/subnav_edit_profile.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Model/RewardOrder.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/webroot/scss/_common.scss",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/tmp/cache/models/myapp_cake_model_default_big_employee_portal_list",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Employees/merch_select_region.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/DefaultAvailabilities/merch_index.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Elements/subnav_initial_signup.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/RewardOrdersController.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/StoresController.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Model/AppModel.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/RewardsController.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Plugin/Export/Controller/Component/ExportComponent.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Plugin/Export/Test/Case/Controller/Component/ExportComponentTest.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Plugin/Export/README.md",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Elements/actions_job_edit.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/lib/Cake/Test/Case/Controller/Component/PaginatorComponentTest.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/lib/Cake/Test/Case/Controller/Component/AuthComponentTest.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Config/database.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Plugin/Export/Case/Test/Controller/Component/ExportComponentTest.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Plugin/Export/Case/Test/Controller/Component/ToolbarComponentTest.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Plugin/ProUtils/Model/Behavior/CsvExportBehavior.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Plugin/Export/ExportComponent.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/Component/ExportComponent.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Layouts/super.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/EmployeesController.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Employees/super_index.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/ActivationTypes/admin_index.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Employees/admin_edit.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Elements/admin/nav2_employees.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Users/super_add.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/EmployeeNotes/admin_edit.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Employees/admin_index_review.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Model/Reward.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/UsersController.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Helper/OddJobHelper.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Users/super_index.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Employees/admin_index.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Rewards/admin_edit.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Rewards/employee_redeem.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Elements/no_sale_overlay.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/EmployeeNotes/admin_index.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Rewards/admin_index.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/index.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Rewards/employee_index.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Config/core.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Model/SuperUser.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/SuperUsersController.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Elements/sale_summary_bar.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/EmployeeNotesController.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/lib/Cake/Model/Datasource/DboSource.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/tmp/cache/models/myapp_cake_model_default_big_employee_portal_employees",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/tmp/cache/persistent/myapp_cake_core_method_cache",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Test/Fixture/EmployeeFixture.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/lib/Cake/Controller/Component/AuthComponent.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/lib/Cake/Controller/Component/PaginatorComponent.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/lib/Cake/Controller/Component/Acl/AclInterface.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/lib/Cake/Network/CakeResponse.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/lib/Cake/Test/Case/Console/Command/SchemaShellTest.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Config/bootstrap.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/webroot/scss/_layout.scss",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Elements/admin/published_key.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/Component/csvExportComponent.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/TasksController.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Plugin/ProUtils/Model/ProUtilsAppModel.php",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/RewardOrders/admin_edit.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/FlashSales/admin_edit.ctp",
+		"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/RewardOrders/admin_index.ctp"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"<project>",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/lib/Cake/Controller/Component/",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/Controller/",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/Employees/",
+			"<project>",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/View/",
+			"<project>",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app/",
+			"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/app",
+			"www",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"#devhub",
+			":username",
+			"username",
+			":email",
+			"email",
+			"devise_for",
+			"userModel",
+			"$subregionId",
+			"select_region_page",
+			"\"page_",
+			"_page",
+			"$subregions",
+			"$leftPadding",
+			"getSubregionsList",
+			"$postcodes",
+			"findByPostcode",
+			"classregistry",
+			"subnav_merch_signup",
+			"irst up, lets complete the initial three sign up step",
+			"populateFromDefaults",
+			"$datesThisWeek",
+			"$iDays",
+			"$weekNumber",
+			"$datesThisWeek",
+			"$weekEnd",
+			"$sixDays",
+			"$weekEnd",
+			"$sixDays",
+			"$weekEnd",
+			"getAllForEditing",
+			"upcoming_hours_header",
+			"dit your hours of availability",
+			"$oneWeek",
+			"$userId",
+			"ClassRegistry::init",
+			"getForManageHoursPage",
+			"$userId",
+			"populate_from_defaults",
+			"Reset all to default hours",
+			"default_availabilities",
+			".with_spacing",
+			"flash sale currently on",
+			"$first_param",
+			"redirectToProfileEdit",
+			"login_as_user",
+			"signup_sub_nav",
+			"subnav_initial_signup",
+			"ProUtils",
+			"exportCsv",
+			"checkSignUpProgress",
+			"&.",
+			".step_number",
+			"ployee and Rewards Portal - Initial Sign",
+			"$toAddress",
+			"td",
+			"address_",
+			"$flatArray",
+			"$flattenedData",
+			"$data",
+			"+ Tas",
+			"+ Stores",
+			"$fileName",
+			"$headerValue",
+			"$value",
+			"$rowNo",
+			"$value",
+			"$key",
+			"getAllKeysForHeaderRow",
+			"$uniqueKeys",
+			"allKeysDeduped",
+			"makeAllRowsConsistentWithHeaderRow",
+			"addMissingKeys",
+			"getUniqueKeysForHeaderRow",
+			"uniqueKeysAcrossRows",
+			"exampleUniqueKeys",
+			"exampleWithInconsistentKeys",
+			"$nestedArray",
+			"PagematronComponent",
+			"TestPagematronController",
+			"new AuthCompo",
+			"Combinator",
+			"a.delete",
+			"admin_access",
+			"adminUrl",
+			"a.delete",
+			"REDIRECTTODASHBOARD",
+			"$user",
+			"adminUrl",
+			"public function admin_",
+			"'User'",
+			"$first_param",
+			"$points\nlast_reviewed",
+			"last_review_date",
+			"$points\nlast_review_date",
+			"_sharedAdminOrSupervisorEdit",
+			"sharedAdminOrSupervisorEdit",
+			"last_reviewed",
+			"$pointLevels",
+			"is_testing_account",
+			"$review",
+			"last_reviewed",
+			"$supervisorIndex",
+			"supervisorOrAdminAdd",
+			"_setAdminAddOrEditData",
+			"EST DENIED. YOU ARE NOT THE SUPERVISOR O",
+			"$id",
+			"$header_row",
+			"$keyChain",
+			"$csv_file",
+			"$filename",
+			"initialize",
+			"$records",
+			"$Model",
+			"$parentAlias->alias",
+			"$Model",
+			"joins",
+			"exportCsv",
+			"'published'",
+			"block_",
+			"ScheduleBlock",
+			"virtualF",
+			"u can make any changes required for that mo",
+			"hide_text",
+			"'timeout'",
+			"$userId",
+			"ClassRegistry::init",
+			"linear-fade",
+			"@include linear-fade-with-hover"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"page_select_region",
+			"getAllGroupedByWeekday",
+			"big_subnav_container",
+			"subnav_merch_signup",
+			"last_reviewed",
+			"$points\nlast_reviewed",
+			"@include linear-fade",
+			"'cost_in_points'",
+			"lock_hours_after_date",
+			"exportCsv",
+			"getAllForEditing",
+			"add_store_codes",
+			"edit_tasks",
+			"this->Form->end(__('Save')",
+			"findAvailabilitiesForUser",
+			"single_day_availabilities",
+			"findWeeklyDefaultsForUser",
+			"employee_id",
+			"initialSignup",
+			"accept_invitation_code",
+			"page_simple",
+			"ajax_pending_overlay",
+			"ajaxing_overlay",
+			"ajax_msg",
+			"'default', array(), 'bad');",
+			"'default', array(), 'good');",
+			"noPrefixUrl",
+			"employment_status",
+			"address_line_2",
+			"address_line_1",
+			"company_phone_type",
+			"credit_card_last4",
+			"has_tablet_cover",
+			"has_tablet_charger",
+			"has_car_charger",
+			"has_car_mount",
+			"has_phone_charger",
+			"petrol_card_last4",
+			"has_officeworks_card",
+			"has_computer",
+			"has_garage_remote",
+			"has_office_key",
+			"has_evernote_business_library",
+			"has_media_space",
+			"has_office_alarm_remote",
+			"$this->Form->create('Employee')",
+			"echo $this->Form->end(__('Save'))",
+			"$popCode",
+			"pop_code",
+			"echo $this->start('actions');\n		//echo $this->Form->postLink(__('<span class=\"icon icon-remove\"></span>')",
+			",array('class'=>'delete', 'escape' => false), __('Are you sure you want to delete",
+			", array('class'=>'delete', 'escape' => false), __('Are you sure you want to delete",
+			"echo $this->Form->postLink(__('<span class=\"icon icon-remove\"></span>'),",
+			""
+		],
+		"reverse": false,
+		"show_context": false,
+		"use_buffer2": false,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "spec/features/reading_blog_spec.rb",
+					"settings":
+					{
+						"buffer_size": 592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "features/reading_blog_spec.rb",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "spec/features/post_comments_spec.rb",
+					"settings":
+					{
+						"buffer_size": 482,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"auto_name": "post_comments_spec.rb",
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/views/pages/about.html.erb",
+					"settings":
+					{
+						"buffer_size": 2200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								470,
+								470
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "spec/models/post_spec.rb",
+					"settings":
+					{
+						"buffer_size": 472,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "app/controllers/posts_controller.rb",
+					"settings":
+					{
+						"buffer_size": 479,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/views/layouts/_header.html.erb",
+					"settings":
+					{
+						"buffer_size": 849,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/views/layouts/application.html.erb",
+					"settings":
+					{
+						"buffer_size": 416,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 7,
+					"file": "app/views/devise/registrations/edit.html.erb",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": ".gitignore",
+					"settings":
+					{
+						"buffer_size": 430,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "app/models/post.rb",
+					"settings":
+					{
+						"buffer_size": 129,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "app/models/comment.rb",
+					"settings":
+					{
+						"buffer_size": 120,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								109,
+								109
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 36.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.562237321941,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 305.0
+	},
+	"output.sftp":
+	{
+		"height": 473.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"about",
+				"app/views/pages/about.html.erb"
+			],
+			[
+				"spec_helper",
+				"spec/spec_helper.rb"
+			],
+			[
+				"comment",
+				"app/models/comment.rb"
+			],
+			[
+				"comment_spec",
+				"spec/models/comment_spec.rb"
+			],
+			[
+				"post.rb",
+				"app/models/post.rb"
+			],
+			[
+				"appli",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"header",
+				"app/views/layouts/_header.html.erb"
+			],
+			[
+				"_post",
+				"app/views/posts/_post.html.erb"
+			],
+			[
+				"postsc",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"comments",
+				"app/controllers/comments_controller.rb"
+			],
+			[
+				"user",
+				"app/models/user.rb"
+			],
+			[
+				"devise.en",
+				"config/locales/devise.en.yml"
+			],
+			[
+				"produc",
+				"config/environments/production.rb"
+			],
+			[
+				"development.rb",
+				"config/environments/development.rb"
+			],
+			[
+				"gemf",
+				"Gemfile"
+			],
+			[
+				"application",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"_pos",
+				"app/views/posts/_post.html.erb"
+			],
+			[
+				"postsin",
+				"app/views/posts/index.html.erb"
+			],
+			[
+				"route",
+				"config/routes.rb"
+			],
+			[
+				"comme",
+				"app/models/comment.rb"
+			],
+			[
+				"postsindex",
+				"app/views/posts/index.html.erb"
+			],
+			[
+				"foundation_and_overrides.c",
+				"app/assets/stylesheets/foundation_and_overrides.scss"
+			],
+			[
+				"application.c",
+				"app/assets/stylesheets/application.css"
+			],
+			[
+				"layouts/",
+				"app/views/layouts/application.html.erb"
+			],
+			[
+				"postscon",
+				"app/controllers/posts_controller.rb"
+			],
+			[
+				"omments_controller.rb",
+				"app/controllers/comments_controller.rb"
+			],
+			[
+				"posts/show.html.erb",
+				"app/views/posts/show.html.erb"
+			],
+			[
+				"authcom",
+				"lib/Cake/Controller/Component/AuthComponent.php"
+			],
+			[
+				"app",
+				"app/Controller/AppController.php"
+			],
+			[
+				"base.sc",
+				"app/webroot/scss/_base.scss"
+			],
+			[
+				"front",
+				"app/webroot/scss/frontend.scss"
+			],
+			[
+				"fron",
+				"app/webroot/scss/frontend.scss"
+			],
+			[
+				"main.js",
+				"app/webroot/js/main.js"
+			],
+			[
+				"default.ctp",
+				"app/View/Layouts/default.ctp"
+			],
+			[
+				"select",
+				"app/View/Elements/select_region_radios.ctp"
+			],
+			[
+				"na",
+				"app/View/Elements/admin/nav2_my_account.ctp"
+			],
+			[
+				"base.",
+				"app/webroot/scss/_base.scss"
+			],
+			[
+				"fronten",
+				"app/webroot/scss/frontend.scss"
+			],
+			[
+				".scss",
+				"app/webroot/scss/_rewards.scss"
+			],
+			[
+				"empl",
+				"app/Model/Employee.php"
+			],
+			[
+				"admin.scs",
+				"app/webroot/scss/admin/admin.scss"
+			],
+			[
+				"admin.cp",
+				"app/View/Layouts/admin.ctp"
+			],
+			[
+				"tas",
+				"app/Model/Task.php"
+			],
+			[
+				"select_region",
+				"app/View/Employees/merch_select_region.ctp"
+			],
+			[
+				"subnav_merch_signup",
+				"app/View/Elements/subnav_merch_signup.ctp"
+			],
+			[
+				"subnav",
+				"app/View/Elements/subnav_edit_profile.ctp"
+			],
+			[
+				"availinde",
+				"app/View/Availabilities/merch_index.ctp"
+			],
+			[
+				"def",
+				"app/Model/DefaultAvailability.php"
+			],
+			[
+				"block.php",
+				"app/Model/ScheduleBlock.php"
+			],
+			[
+				"ava",
+				"app/Model/Availability.php"
+			],
+			[
+				"employee.",
+				"app/Model/Employee.php"
+			],
+			[
+				"availa",
+				"app/Model/Availability.php"
+			],
+			[
+				"default",
+				"app/Controller/DefaultAvailabilitiesController.php"
+			],
+			[
+				"subnav_edit_profile",
+				"app/View/Elements/subnav_edit_profile.ctp"
+			],
+			[
+				"subnav_initial_signup",
+				"app/View/Elements/subnav_initial_signup.ctp"
+			],
+			[
+				"edit_profile",
+				"app/View/Employees/employee_edit_profile.ctp"
+			],
+			[
+				"rewa",
+				"app/Controller/RewardOrdersController.php"
+			],
+			[
+				"rwa",
+				"app/Controller/RewardsController.php"
+			],
+			[
+				"appcon",
+				"app/Controller/AppController.php"
+			],
+			[
+				"rewardord",
+				"app/Controller/RewardOrdersController.php"
+			],
+			[
+				"emplo",
+				"app/Model/Employee.php"
+			],
+			[
+				"expor",
+				"app/Plugin/Export/Test/Case/Controller/Component/ExportComponentTest.php"
+			],
+			[
+				"database.h",
+				"app/Config/database.php"
+			],
+			[
+				"authcompon",
+				"lib/Cake/Test/Case/Controller/Component/AuthComponentTest.php"
+			],
+			[
+				"exportcom",
+				"app/Plugin/Export/Case/Test/Controller/Component/ExportComponentTest.php"
+			],
+			[
+				"csve",
+				"app/Plugin/ProUtils/Model/Behavior/CsvExportBehavior.php"
+			],
+			[
+				"read",
+				"app/Plugin/Export/README.md"
+			],
+			[
+				"exportc",
+				"app/Plugin/Export/ExportComponent.php"
+			],
+			[
+				"",
+				"app/Controller/RewardOrdersController.php"
+			],
+			[
+				"export",
+				"app/Controller/Component/ExportComponent.php"
+			],
+			[
+				"super",
+				"app/View/Layouts/super.ctp"
+			],
+			[
+				"nav2_",
+				"app/View/Elements/admin/nav2_employees.ctp"
+			],
+			[
+				"employeadmin_e",
+				"app/View/Employees/admin_edit.ctp"
+			],
+			[
+				"employeadmin",
+				"app/View/EmployeeNotes/admin_edit.ctp"
+			],
+			[
+				"admin_in",
+				"app/View/ActivationTypes/admin_index.ctp"
+			],
+			[
+				"super_ind",
+				"app/View/Employees/super_index.ctp"
+			],
+			[
+				"employ",
+				"app/Controller/EmployeesController.php"
+			],
+			[
+				"super.ctp",
+				"app/View/Layouts/super.ctp"
+			],
+			[
+				"empladmin_in",
+				"app/View/Employees/admin_index.ctp"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"employee",
+				"app/Controller/EmployeesController.php"
+			],
+			[
+				"emplind",
+				"app/View/Rewards/employee_index.ctp"
+			],
+			[
+				"employeinde",
+				"app/View/Rewards/employee_index.ctp"
+			],
+			[
+				"usersindex",
+				"app/View/Users/super_index.ctp"
+			],
+			[
+				"oddjo",
+				"app/View/Helper/OddJobHelper.php"
+			],
+			[
+				"admin.ctp",
+				"app/View/Layouts/admin.ctp"
+			],
+			[
+				"confic.php",
+				"app/Config/core.php"
+			],
+			[
+				"userscon",
+				"app/Controller/UsersController.php"
+			],
+			[
+				"rewar",
+				"app/Model/Reward.php"
+			],
+			[
+				"adminrevie",
+				"app/View/Employees/admin_index_review.ctp"
+			],
+			[
+				"no_sa",
+				"app/View/Elements/no_sale_overlay.ctp"
+			],
+			[
+				"sale_summary_bar",
+				"app/View/Elements/sale_summary_bar.ctp"
+			],
+			[
+				"rewardsinde",
+				"app/View/Rewards/employee_index.ctp"
+			],
+			[
+				"rewards",
+				"app/Controller/RewardsController.php"
+			],
+			[
+				"review.ct",
+				"app/View/Employees/admin_index_review.ctp"
+			],
+			[
+				"nav2",
+				"app/View/Elements/admin/nav2_employees.ctp"
+			],
+			[
+				"dbosource",
+				"lib/Cake/Model/Datasource/DboSource.php"
+			],
+			[
+				"employeenote",
+				"app/Controller/EmployeeNotesController.php"
+			],
+			[
+				"employadmi_in",
+				"app/View/Employees/admin_index.ctp"
+			],
+			[
+				"employe",
+				"app/Controller/EmployeesController.php"
+			],
+			[
+				"notesadmin_in",
+				"app/View/EmployeeNotes/admin_index.ctp"
+			],
+			[
+				"employedit",
+				"app/View/Employees/admin_edit.ctp"
+			],
+			[
+				"notesadd",
+				"app/View/EmployeeNotes/admin_edit.ctp"
+			],
+			[
+				"employno",
+				"app/Controller/EmployeeNotesController.php"
+			],
+			[
+				"notesind",
+				"app/View/EmployeeNotes/admin_index.ctp"
+			],
+			[
+				"nav2_employees",
+				"app/View/Elements/admin/nav2_employees.ctp"
+			],
+			[
+				"empladmin_index",
+				"app/View/EmployeeNotes/admin_index.ctp"
+			],
+			[
+				"appc",
+				"app/Controller/AppController.php"
+			],
+			[
+				"expo",
+				"app/Plugin/ProUtils/Model/Behavior/CsvExportBehavior.php"
+			],
+			[
+				"response",
+				"lib/Cake/Network/CakeResponse.php"
+			],
+			[
+				"rew",
+				"app/Controller/RewardOrdersController.php"
+			],
+			[
+				"pagincom",
+				"lib/Cake/Controller/Component/PaginatorComponent.php"
+			],
+			[
+				"csvex",
+				"app/Plugin/ProUtils/Model/Behavior/CsvExportBehavior.php"
+			],
+			[
+				"emplinde",
+				"app/View/Employees/admin_index.ctp"
+			],
+			[
+				"rewardor",
+				"app/Controller/RewardOrdersController.php"
+			],
+			[
+				"rewarind",
+				"app/View/Rewards/admin_index.ctp"
+			],
+			[
+				"orderinde",
+				"app/View/RewardOrders/admin_index.ctp"
+			],
+			[
+				"rewain",
+				"app/View/RewardOrders/admin_index.ctp"
+			],
+			[
+				"saleedit",
+				"app/View/FlashSales/admin_edit.ctp"
+			],
+			[
+				"rewardsedit",
+				"app/View/Rewards/admin_edit.ctp"
+			],
+			[
+				"model/",
+				"app/Model/Job.php"
+			],
+			[
+				"flashsa",
+				"app/Model/FlashSale.php"
+			],
+			[
+				"orderedit",
+				"app/View/RewardOrders/admin_edit.ctp"
+			],
+			[
+				"orderindex",
+				"app/View/RewardOrders/admin_index.ctp"
+			],
+			[
+				"rewardorinde",
+				"app/View/RewardOrders/admin_index.ctp"
+			],
+			[
+				"salesindex",
+				"app/View/FlashSales/admin_index.ctp"
+			],
+			[
+				"nav2_sa",
+				"app/View/Elements/admin/nav2_sales.ctp"
+			],
+			[
+				"published_key",
+				"app/View/Elements/admin/published_key.ctp"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"big",
+				"/Applications/MAMP/htdocs/BIG/Employee_Management_Website/www/big.sublime-project"
+			],
+			[
+				"ca",
+				"/Applications/MAMP/htdocs/CakeMix/www/cakemix.sublime-project"
+			],
+			[
+				"ang",
+				"/Applications/MAMP/htdocs/Angel_Investor/www/angelinvestor.sublime-project"
+			],
+			[
+				"grain",
+				"/Applications/MAMP/htdocs/Grain_Waves/Website_April_2013/www/grainwaves2013.sublime-project"
+			],
+			[
+				"ange",
+				"/Applications/MAMP/htdocs/Angel_Investor/www/angelinvestor.sublime-project"
+			],
+			[
+				"udia",
+				"/Applications/MAMP/htdocs/udia/www/udia-nsw.sublime-project"
+			],
+			[
+				"",
+				"/Applications/MAMP/htdocs/Adtrans_Hino/Website_April_2013/www/adtranshino.sublime-project"
+			],
+			[
+				"udi",
+				"/Applications/MAMP/htdocs/udia/www/udia-nsw.sublime-project"
+			],
+			[
+				"cakem",
+				"/Applications/MAMP/htdocs/CakeMix/www/cakemix.sublime-project"
+			],
+			[
+				"adtra",
+				"/Applications/MAMP/htdocs/Adtrans_Hino/Website_April_2013/www/adtranshino.sublime-project"
+			],
+			[
+				"hino",
+				"/Applications/MAMP/htdocs/Adtrans_Hino/Website_April_2013/www/adtranshino.sublime-project"
+			],
+			[
+				"g",
+				"/Applications/MAMP/htdocs/Grain_Waves/Website_April_2013/www/grainwaves2013.sublime-project"
+			],
+			[
+				"adt",
+				"/Applications/MAMP/htdocs/Adtrans_Hino/Website_April_2013/www/adtranshino.sublime-project"
+			],
+			[
+				"mark",
+				"/Applications/MAMP/htdocs/Mark_Sherborne/Website_Feb_2013/professional_site/www/marksherborneprofessional.sublime-project"
+			],
+			[
+				"cake",
+				"/Applications/MAMP/htdocs/CakeMix/www/cakemix.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 385.0,
+	"status_bar_visible": true
+}
