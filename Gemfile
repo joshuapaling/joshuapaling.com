@@ -6,7 +6,10 @@ gem 'rails', '~> 3.2.1'
 group :development, :test do
 	gem 'sqlite3'
 	gem 'binding_of_caller'
-	gem 'better_errors'
+end
+
+group :development do
+  gem 'better_errors'
 end
 
 group :production do

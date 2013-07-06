@@ -2,13 +2,13 @@ require 'spec_helper'
 
 feature 'Posting Comments' do
   background do
-    @post = Post.create(:title => 'Awesome Blog Post', :body => 'Lorem ipsum dolor sit amet')
+    @post = Post.create(:title => 'Awesome Blog Post', :body => 'Lorem ipsum dolor sit amet', :published => true)
   end
 
   # Note this scenario doesn't test the AJAX comment posting.
   scenario 'Posting a comment' do
     visit post_path(@post)
-
+    expect(page).to have_content 'Awesome Blog Post'
     comment = 'This post is just filler text. Ripped off!'
 
     fill_in 'comment_body', :with => comment

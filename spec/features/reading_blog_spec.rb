@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 feature 'Reading the Blog' do
+
   context 'for an unpublished post' do
     background do
       @post = Post.create(:title => 'Unpublished Post', :body => 'Lorem ipsum dolor sit amet')
@@ -18,6 +19,8 @@ feature 'Reading the Blog' do
       }).to raise_error(ActiveRecord::RecordNotFound)
     end
   end
+
+
 
   context 'for a published post' do
     background do
