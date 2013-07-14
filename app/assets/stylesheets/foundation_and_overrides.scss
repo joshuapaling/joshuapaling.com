@@ -13,6 +13,7 @@
 
 // This is the default html and body font-size for the base em value.
 // $em-base: 16px;
+$em-base: 13px;
 
 // We use these to control various global styles
 // $body-bg: #fff;
@@ -86,6 +87,12 @@
 // $h4-font-size: emCalc(23px);
 // $h5-font-size: emCalc(18px);
 // $h6-font-size: 1em;
+$h1-font-size: emCalc(30px);
+$h2-font-size: emCalc(25px);
+$h3-font-size: emCalc(20px);
+$h4-font-size: emCalc(17px);
+$h5-font-size: emCalc(14px);
+$h6-font-size: 1em;
 
 // These control how subheaders are styled.
 // $subheader-line-height: 1.4;
@@ -107,6 +114,8 @@
 // $paragraph-aside-font-size: emCalc(14px);
 // $paragraph-aside-line-height: 1.35;
 // $paragraph-aside-font-style: italic;
+$paragraph-line-height: 1.4;
+$paragraph-margin-bottom: emCalc(13px);
 
 // We use these to style <code> tags
 // $code-color: darken($alert-color, 15%);
