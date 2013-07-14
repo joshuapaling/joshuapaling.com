@@ -1,5 +1,5 @@
 class Post < ActiveRecord::Base
-  attr_accessible :body, :title, :published, :author, :author_id, :published_at
+  attr_accessible :body, :title, :published, :author, :author_id, :published_at, :blurb
 
   has_many :comments
 
@@ -9,8 +9,10 @@ class Post < ActiveRecord::Base
 
   scope :published, where(:published => true)
 
-  def content
-    MarkdownService.new.render(body)
+  scope :unpublished, where(:published => false)
+
+  def content field
+    MarkdownService.new.render(field)
   end
 
   def author_name

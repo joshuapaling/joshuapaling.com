@@ -1,4 +1,9 @@
 <h2><%= link_to_unless_current post.title, post %></h2>
 <h3>Posted by: <%= post.author_name %> at <%= post.published_at %></h3>
-<%= post.content.html_safe %>
+<%= post.content(post.blurb).html_safe %>
+<hr />
+<% if params[:action] == 'show' %>
+  <%= post.content(post.body).html_safe %>
+<% end %>
+
 <% #DevHub q - why can you access the model direct form the view? And shouldn't content rendering be the responsibility of the view? %>
