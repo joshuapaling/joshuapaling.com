@@ -7,8 +7,8 @@ class Post < ActiveRecord::Base
 
   validates_presence_of :body, :title
 
+  default_scope order('published_at DESC')
   scope :published, where(:published => true)
-
   scope :unpublished, where(:published => false)
 
   def content field
