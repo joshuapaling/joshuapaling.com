@@ -1,9 +1,9 @@
 class Post < ActiveRecord::Base
-  attr_accessible :body, :title, :published, :author, :author_id, :published_at, :blurb
+  attr_accessible :body, :title, :published, :author, :author_id, :published_at, :blurb, :category_ids
 
   has_many :comments
   has_many :categorizations
-  has_many :posts, :through => :categorizations
+  has_many :categories, :through => :categorizations
 
   belongs_to :author, :class_name => "AdminUser"
 
