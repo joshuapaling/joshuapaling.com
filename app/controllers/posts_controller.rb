@@ -3,7 +3,7 @@ class PostsController < ApplicationController
   # GET /posts.json
   # GET /posts.atom
   def index
-    @posts = Post.published
+    @posts = Post.published.page(params[:page]).per(10)
 
     respond_to do |format|
       format.html # index.html.erb
