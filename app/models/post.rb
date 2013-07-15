@@ -2,6 +2,8 @@ class Post < ActiveRecord::Base
   attr_accessible :body, :title, :published, :author, :author_id, :published_at, :blurb
 
   has_many :comments
+  has_many :categorizations
+  has_many :posts, :through => :categorizations
 
   belongs_to :author, :class_name => "AdminUser"
 
