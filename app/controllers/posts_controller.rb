@@ -3,8 +3,11 @@ class PostsController < ApplicationController
   # GET /posts.json
   # GET /posts.atom
   def index
-    @posts = Post.published.page(params[:page]).per(10)
-
+    if params[:category]
+      @posts = Post.published.joins(:categories).where("categories.id = ?", params[:category]).page(params[:page]).per(10)
+    else
+      @posts = Post.published.page(params[:page]).per(10)
+    end
     respond_to do |format|
       format.html # index.html.erb
       format.json { render json: @posts }
@@ -16,6 +19,7 @@ class PostsController < ApplicationController
   # GET /posts/1.json
   def show
     @post = Post.published.find(params[:id])
+    #DevHub Q - why is id not a named param? Like not ?id=3 where as in the index method, category is named (ie, ?category=2)
 
     respond_to do |format|
       format.html # show.html.erb
