@@ -5,6 +5,7 @@ class PostsController < ApplicationController
   def index
     if params[:category]
       @posts = Post.published.joins(:categories).where("categories.id = ?", params[:category]).page(params[:page]).per(10)
+      @category = Category.find(params[:category])
     else
       @posts = Post.published.page(params[:page]).per(10)
     end

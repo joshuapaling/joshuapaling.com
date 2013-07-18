@@ -3,7 +3,7 @@ class ApplicationController < ActionController::Base
   before_filter :load_categories
 
   def load_categories
-    @categories = Category.all
+    @categories_all = Category.all
   end
 
 end

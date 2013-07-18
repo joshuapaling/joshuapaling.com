@@ -1,16 +1,19 @@
-<h2><%= link_to_unless_current post.title, post %></h2>
-<h3>Posted by: <%= post.author_name %> at <%= post.published_at %></h3>
-<h5>
-  Categories:
-  <%= post.categories.map{|c| c.name}.join(", ") %>
-</h5>
+<header class="post">
+  <h2><%= link_to_unless_current post.title, post %></h2>
+  <p>
+    <strong><%= post.published_at %></strong>
+    &nbsp;
+    Categories:
+    <%= post.categories.map{|c| c.name}.join(" &bull; ") %>
+  </p>
+</header>
+
 
 <%= post.content(post.blurb).html_safe %>
 <% if params[:action] == 'show' %>
   <%= post.content(post.body).html_safe %>
 <% else %>
-  <%= link_to 'read more ›', post %>
+  <%= link_to 'Read More ›', post, class: 'tiny button' %>
 <% end %>
-<hr />
 
 <% #DevHub q - why can you access the model direct form the view? And shouldn't content rendering be the responsibility of the view? %>

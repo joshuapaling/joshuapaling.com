@@ -1004,8 +1004,8 @@ $paragraph-margin-bottom: emCalc(13px);
 // $topbar-breakpoint: emCalc(940px); // Change to 9999px for always mobile layout
 // $topbar-media-query: "only screen and (min-width "#{$topbar-breakpoint}")";
 
-
+@import 'compass/css3';
 @import 'foundation';
 @import 'common';
+@import 'posts';
 @import 'github';
-@import 'compass/css3';
