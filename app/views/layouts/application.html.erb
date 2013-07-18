@@ -11,14 +11,15 @@
   <%= render :partial => 'layouts/header' %>
 
   <div id="main">
-    <%= yield %>
-  </div>
 
-  <div class="sidebar">
-    Sidebar
-    <% @categories.each do |c| %>
-      <%= link_to c.name, posts_path(:category => c) %>
-    <% end %>
+    <div class="row">
+      <div class="large-8 columns">
+        <%= yield %>
+      </div>
+      <div class="large-4 columns">
+        <%= render :partial => 'layouts/sidebar' %>
+      </div>
+    </div>
   </div>
 
   <%= render :partial => 'layouts/footer' %>

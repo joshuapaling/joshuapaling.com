@@ -59,6 +59,7 @@ GEM
       rack (>= 1.0.0)
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
+    chunky_png (1.2.8)
     coderay (1.0.9)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -67,6 +68,12 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.2)
+    compass (0.12.2)
+      chunky_png (~> 1.2)
+      fssm (>= 0.2.7)
+      sass (~> 3.1)
+    compass-rails (1.0.3)
+      compass (>= 0.12.2, < 0.14)
     debug_inspector (0.0.2)
     devise (2.2.3)
       bcrypt-ruby (~> 3.0)
@@ -80,6 +87,7 @@ GEM
     fastercsv (1.5.5)
     formtastic (2.2.1)
       actionpack (>= 3.0)
+    fssm (0.2.10)
     has_scope (0.5.1)
     hike (1.2.2)
     i18n (0.6.1)
@@ -188,6 +196,7 @@ DEPENDENCIES
   binding_of_caller
   capybara
   coffee-rails (~> 3.2.1)
+  compass-rails
   jquery-rails
   kaminari
   meta_search (>= 1.1.0.pre)

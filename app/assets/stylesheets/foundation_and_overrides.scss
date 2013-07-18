@@ -79,6 +79,8 @@ $em-base: 13px;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
 // $header-text-rendering: optimizeLegibility;
+$header-bottom-margin: .1em;
+$header-top-margin: .8em;
 
 // We use these to control header font sizes
 // $h1-font-size: emCalc(44px);
@@ -1006,3 +1008,4 @@ $paragraph-margin-bottom: emCalc(13px);
 @import 'foundation';
 @import 'common';
 @import 'github';
+@import 'compass/css3';
