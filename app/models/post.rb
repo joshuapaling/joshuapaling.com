@@ -7,7 +7,7 @@ class Post < ActiveRecord::Base
 
   belongs_to :author, :class_name => "AdminUser"
 
-  validates_presence_of :body, :title
+  validates_presence_of :blurb, :title, :published_at
 
   default_scope order('published_at DESC')
   scope :published, where(:published => true)
