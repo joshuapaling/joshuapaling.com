@@ -17,8 +17,16 @@ div#main {
   @include box-shadow(0px 0px 25px #666); // multiple: comma-delimited
 }
 
+.top-bar .name h1 a:hover {
+  color: #b6ebff;
+}
+
 .top-bar ul.right a {
   text-transform: uppercase;
+
+  &:hover {
+    color: #b6ebff;
+  }
 
   span {
     font-size: 1.5em;
