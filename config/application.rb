@@ -67,5 +67,11 @@ module QuickBlog
     config.assets.version = '1.0'
 
     config.exceptions_app = self.routes
+
+    # Add the fonts path - from http://stackoverflow.com/questions/10905905/using-fonts-with-rails-asset-pipeline
+    config.assets.paths << Rails.root.join('app', 'assets', 'fonts')
+
+    # Precompile additional assets - from http://stackoverflow.com/questions/10905905/using-fonts-with-rails-asset-pipeline
+    config.assets.precompile += %w( .svg .eot .woff .ttf )
   end
 end
