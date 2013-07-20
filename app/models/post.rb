@@ -13,6 +13,8 @@ class Post < ActiveRecord::Base
   scope :published, where(:published => true)
   scope :unpublished, where(:published => false)
 
+  after_initialize :set_defaults
+
   def content field
     MarkdownService.new.render(field)
   end
@@ -24,6 +26,12 @@ class Post < ActiveRecord::Base
       'Nobody'
     end
   end
+
+  # set defaults - taken from http://stackoverflow.com/questions/328525/what-is-the-best-way-to-set-default-values-in-activerecord
+  def set_defaults
+    self.published_at  ||= Time.now
+  end
+
 end
 
 
