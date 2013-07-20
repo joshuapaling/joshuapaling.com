@@ -33,6 +33,8 @@ $em-base: 13px;
 // $secondary-color: #e9e9e9;
 // $alert-color: #c60f13;
 // $success-color: #5da423;
+$primary-color: #265499;
+$secondary-color: #cacac5;
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
@@ -82,6 +84,9 @@ $row-width: 78em;
 // $header-text-rendering: optimizeLegibility;
 $header-bottom-margin: .1em;
 $header-top-margin: .8em;
+$header-line-height: 1.2;
+$header-font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+$header-font-weight: normal;
 
 // We use these to control header font sizes
 // $h1-font-size: emCalc(44px);
@@ -251,6 +256,8 @@ $paragraph-margin-bottom: emCalc(13px);
 // $button-font-lrg: emCalc(20px);
 // $button-font-weight: bold;
 // $button-font-align: center;
+$button-font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+$button-font-weight: normal;
 
 // We use these to control various hover effects.
 // $button-function-factor: 10%;
@@ -826,11 +833,13 @@ $paragraph-margin-bottom: emCalc(13px);
 // $side-nav-link-color-active: lighten(#000, 30%);
 // $side-nav-font-size: emCalc(14px);
 // $side-nav-font-weight: bold;
+$side-nav-link-color-active: red;
 
 // We use these to control border styles
 // $side-nav-divider-size: 1px;
 // $side-nav-divider-style: solid;
 // $side-nav-divider-color: darken(#fff, 10%);
+$side-nav-divider-color: #ccc;
 
 //
 // Sub Nav Variables
@@ -977,11 +986,13 @@ $paragraph-margin-bottom: emCalc(13px);
 // Controlling the styles for the title in the top bar
 // $topbar-title-weight: bold;
 // $topbar-title-font-size: emCalc(17px);
+$topbar-title-weight: normal;
 
 // Set the link colors and styles for top-level nav
 // $topbar-link-color: #fff;
 // $topbar-link-weight: bold;
 // $topbar-link-font-size: emCalc(13px);
+$topbar-link-weight: normal;
 
 // Style the top bar dropdown elements
 // $topbar-dropdown-bg: #333;

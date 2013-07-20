@@ -1,19 +1,38 @@
-<header class="post">
-  <h2><%= link_to_unless_current post.title, post %></h2>
-  <p>
-    <strong><%= post.published_at.strftime('%e %b %Y at %l%P') %></strong>
-    &nbsp;
-    Categories:
-    <%= post.categories.map{|c| c.name}.join(" &bull; ") %>
-  </p>
-</header>
+<div class="post">
+
+  <header>
+    <h2><%= link_to_unless_current post.title, post %></h2>
+    <p>
+      <strong><%= post.published_at.strftime('%e %b %Y at %l%P') %></strong>
+      &nbsp;
+      Categories:
+      <%= post.categories.map{|c| c.name}.join(" &bull; ") %>
+      <% if params[:action] == 'show' %>
+      <!-- AddThis Button BEGIN -->
+        <div class="addthis_toolbox addthis_default_style">
+          <a class="addthis_button_tweet"></a>
+          <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+        </div>
+        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-51ea66074c301203"></script>
+        <!-- AddThis Button END -->
+      <% end %>
+    </p>
+
+  </header>
 
 
-<%= post.content(post.blurb).html_safe %>
-<% if params[:action] == 'show' %>
-  <%= post.content(post.body).html_safe %>
-<% else %>
-  <%= link_to 'Read More ›', post, class: 'tiny button' %>
-<% end %>
-
-<% #DevHub q - why can you access the model direct form the view? And shouldn't content rendering be the responsibility of the view? %>
+  <%= post.content(post.blurb).html_safe %>
+  <% if params[:action] == 'show' %>
+    <%= post.content(post.body).html_safe %>
+    <!-- AddThis Button BEGIN -->
+    <div class="addthis_toolbox addthis_default_style">
+    <a class="addthis_button_tweet"></a>
+    <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+    </div>
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-51ea66074c301203"></script>
+    <!-- AddThis Button END -->
+  <% else %>
+    <%= link_to "Tell me more ›", post, class: 'more' %>
+  <% end %>
+  <% #DevHub q › why can you access the model direct form the view? And shouldn't content rendering be the responsibility of the view? %>
+</div>

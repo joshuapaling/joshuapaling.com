@@ -1,6 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<h1>BLOG</h1>
+<h1 class="page-title">BLOG</h1>
 <%= render :partial => @post %>
 
 <%= link_to 'Back', posts_path %>
@@ -15,5 +15,5 @@
 		<%= f.label :body, "New comment" %><br/>
 		<%= f.text_area :body %>
 	</p>
-	<p><%= f.submit "Add comment" %></p>
+	<p><%= f.submit "Add comment", class: 'small button' %></p>
 <% end %>
