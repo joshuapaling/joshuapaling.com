@@ -5,9 +5,12 @@ QuickBlog::Application.routes.draw do
 
   root :to => 'posts#index'
 
-  resources :posts do
+  resources :posts, except: [:show] do
     resources :comments, :only => [:create]
   end
+
+  get 'posts/category/:slug', to: 'posts#category', as: 'posts_category'
+  get 'post/:slug', to: 'posts#show', as: 'post'
 
   get '/about', :to => 'pages#about'
 

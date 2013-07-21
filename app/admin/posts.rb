@@ -17,6 +17,7 @@ ActiveAdmin.register Post do
       f.input :published
       f.input :published_at
       f.input :title
+      f.input :slug
       f.input :categories, :as => :check_boxes
       f.input :blurb
       f.input :body

@@ -1,7 +1,7 @@
 <div class="post">
 
   <header>
-    <h2><%= link_to_unless_current post.title, post %></h2>
+    <h2><%= link_to_unless_current post.title, post_path(post.slug) %></h2>
     <p>
       <strong><%= post.published_at.strftime('%e %b %Y at %l%P') %></strong>
       &nbsp;
