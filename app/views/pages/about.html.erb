@@ -1,79 +1,15 @@
 <h1 class="page-title">About Me</h1>
-<p>Hi! I'm Joss. I'm learning rails.</p>
-<p>I have the following questions to ask at #DevHub</p>
+<h3>Hello! <br>I'm Joss. I'm a 27 year old web developer from Sydney, Australia.</h3>
 
-0. Should I use rails 4, or wait some time for gems etc to be upgraded?
-Keep using rails 3 until 4.0.5 is released or similar. 6 months.
-<br /><br />
+<h3>I'm married to Jess</h3>
+<%= image_tag "jess-joss.jpg" %>
 
-1. So every time you want to start up a rails server, you have to cd and then rails s. So you can't just start your computer and have all projects available instantly ala MAMP?
-Use POW. Or specify port number inside rails.
-<br /><br />
+<h3>These are our twins, Annika and Luke</h3>
+<%= image_tag "luke-annika.jpg" %>
 
-1b. Do most people use Pow? If not, is every project at localhost:3000? ANy way to have separate URLs?
-use POW
-<br /><br />
+<h3>When I'm not coding or changing nappies, I like surfing</h3>
+<%= image_tag "joss-surfing.jpg" %>
 
-2. Is there a good free PostGres admin tool? And do you ever design in a DB admin tool first, then create a migrate file second?
-??
-<br /><br />
+<h3>and skateboarding</h3>
+<%= image_tag "skating.jpg" %>
 
-3. Any way to log in as any user with Activ Admin or Devise?
-yes. custom code.
-<br /><br />
-
-4. Any way to step through / debug code? What do people normally do?
-a) debugger gem, run in terminal.
-b) better_errors gem
-c) RubyMine IDE (with debugger gem)
-d) PRY - replacement for IRB and can use it to break and inspect state of app. Can't step.
-<br /><br />
-
-5. any easy way to look at code in gems (including rails source) and eg. temporarily add a debug message or something?
-Bundle open gemname - and you can specify your github version of the gem in your Gemfile
-<br /><br />
-
-6. What happens when you don't specify a version number for a gem (ala devise in this app)
-Uses latest version that doesn't conflict.
-<br /><br />
-
-7. How to delete records from my SqlLite DB?
-open rails console
-Post.find(1).delete
-<br /><br />
-
-8. Extend form helper - eg. adding label/field pairs, with class names, etc.
-use simple_form
-<br /><br />
-
-9. Helpers - you just always get all of them? Define your own? Are they objects?
-A helper is a set of methods added onto the existing class "modules" mixin to a class
-<br /><br />
-
-10. All the commands that you have to run like bundle install etc. Do you have to do that manually after each upload to the server?
-part of the cap deploy will be to bundle install
-<br /><br />
-
-11. In reality, do you write tests for code so simple? Or this is just as an example?
-not for super simple 1 line stuff
-<br /><br />
-
-11b. I often write one test that fails, and one that passes, as a single test. Is this bad or good?
-yes, OK
-<br /><br />
-
-12. Any way to run tests in the browser, not in the terminal?
-no (ecet if using CI server)
-<br /><br />
-
-13. http://rubydoc.info/gems/rspec-expectations/frames
-
-actual.should( be >  expected)<br />
-actual.should be >= expected<br />
-actual.should be <= expected<br />
-actual.should be <  expected<br />
-actual.should be_within(delta).of(expected)<br />
-<br />What is all this? Which are params? What are the comparison operators? Params?
-
-14. Auto refresh browser on save ala CodeKit
-<br /><br />
