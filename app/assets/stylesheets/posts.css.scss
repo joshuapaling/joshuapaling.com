@@ -19,6 +19,14 @@
   }
 }
 
+code {
+  margin: 0 2px;
+  padding: 0px 5px;
+  border: 1px solid #ddd;
+  background-color: #f8f8f8;
+  font-weight: normal;
+  color: #333;
+}
 
 
 pre {
@@ -28,7 +36,6 @@ pre {
   line-height: 19px;
   overflow: auto;
   padding: 6px 10px;
-  border-radius: 3px;
   margin-bottom: 15px;
 
 }
