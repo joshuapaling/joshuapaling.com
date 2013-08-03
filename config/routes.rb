@@ -1,4 +1,12 @@
 QuickBlog::Application.routes.draw do
+
+  # redirect all non-www to www - from Duke's answer: http://stackoverflow.com/questions/4046960/how-to-redirect-without-www-using-rails-3-rack
+  constraints(:host => /^www\./) do
+    match "(*x)" => redirect { |params, request|
+      URI.parse(request.url).tap {|url| url.host.sub!('www.', '') }.to_s
+    }
+  end
+
   ActiveAdmin.routes(self)
 
   devise_for :admin_users, ActiveAdmin::Devise.config
