@@ -4,7 +4,7 @@ gem 'rails', '~> 3.2.1'
 
 # For gems only used in development
 group :development, :test do
-	gem 'sqlite3'
+	# gem 'sqlite3'
 	gem 'binding_of_caller'
 end
 
@@ -12,9 +12,7 @@ group :development do
   gem 'better_errors'
 end
 
-group :production do
-	gem 'pg'
-end
+gem 'pg'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
@@ -33,6 +31,11 @@ end
 
 group :test do
   gem 'capybara'
+end
+
+group :development do
+  gem "capistrano", "~> 2.15.5"
+  gem 'rvm-capistrano'
 end
 
 gem 'activeadmin'
