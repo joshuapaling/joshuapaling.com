@@ -17,4 +17,6 @@
 *.sublime-project
 *.sublime-workspace
 /sftp-config.json
-/public/scratch/
+
+# ignore database config
+config/database.yml
