@@ -31,13 +31,13 @@ set :keep_releases, 3
 after "deploy:restart", "deploy:cleanup"
 
 # from http://stackoverflow.com/questions/1449836/how-to-manage-rails-database-yml and http://stackoverflow.com/questions/9684649/capistrano-cant-deploy-my-database-yml
-# before 'deploy:assets:precompile', 'deploy:symlink_db'
-# namespace :deploy do
-#   desc "Symlinks the database.yml"
-#   task :symlink_db, :roles => :app do
-#     run "ln -nfs #{deploy_to}/shared/config/database.yml #{release_path}/config/database.yml"
-#   end
-# end
+before 'deploy:assets:precompile', 'deploy:symlink_db'
+namespace :deploy do
+  desc "Symlinks the database.yml"
+  task :symlink_db, :roles => :app do
+    run "ln -nfs #{deploy_to}/shared/config/database.yml #{release_path}/config/database.yml"
+  end
+end
 
 after 'deploy:update_code', 'deploy:migrate'
 
