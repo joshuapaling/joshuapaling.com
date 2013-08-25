@@ -47,3 +47,6 @@ gem 'rouge'
 gem 'kaminari'
 
 gem 'therubyracer' # based on http://stackoverflow.com/questions/9057475/rake-dbcreate-could-not-find-a-javascript-runtime
+
+gem 'rmagick'
+gem 'carrierwave'
