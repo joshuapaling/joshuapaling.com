@@ -20,3 +20,4 @@
 
 # ignore database config
 config/database.yml
+/public/uploads/
