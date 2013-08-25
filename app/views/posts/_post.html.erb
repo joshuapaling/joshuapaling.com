@@ -16,6 +16,9 @@
         <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-51ea66074c301203"></script>
         <!-- AddThis Button END -->
       <% end %>
+      <% if admin_user_signed_in? %>
+        <%= link_to "Edit", edit_admin_post_url(post.id), target: :blank %>
+      <% end %>
     </p>
 
   </header>
@@ -34,5 +37,7 @@
   <% else %>
     <%= link_to "Tell Me More ›", post_path(post.slug), class: 'more' %>
   <% end %>
+
+
   <% #DevHub q › why can you access the model direct form the view? And shouldn't content rendering be the responsibility of the view? %>
 </div>
