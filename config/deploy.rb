@@ -10,7 +10,8 @@ set :application, "joshua_paling_blog"
 set :repository,  "ssh://git@bitbucket.org/bbldigital/joshuapaling.com.git"
 
 set :default_environment, {
-  'PATH' => "/usr/pgsql-9.2/bin/:$PATH" # so we can see pg_config. Suggestion from http://www.pastbedti.me/2011/06/change-path-environment-with-rails-and-capistrano/
+  'PATH' => "/usr/pgsql-9.2/bin/:$PATH", # so we can see pg_config. Suggestion from http://www.pastbedti.me/2011/06/change-path-environment-with-rails-and-capistrano/
+  'PKG_CONFIG_PATH' => "/usr/local/lib/pkgconfig/:$PKG_CONFIG_PATH"
 }
 
 set :scm, :git
