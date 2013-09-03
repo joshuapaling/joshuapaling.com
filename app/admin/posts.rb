@@ -22,7 +22,7 @@ ActiveAdmin.register Post do
       f.input :blurb
       f.input :body
     end
-    f.buttons
+    f.actions
   end
 
   controller do
