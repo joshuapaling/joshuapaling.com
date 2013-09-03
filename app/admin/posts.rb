@@ -25,4 +25,9 @@ ActiveAdmin.register Post do
     f.buttons
   end
 
+  controller do
+    def resource
+      Post.where(slug: params[:id]).first! rescue Post.new
+    end
+  end
 end

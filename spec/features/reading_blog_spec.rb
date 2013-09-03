@@ -4,7 +4,7 @@ feature 'Reading the Blog' do
 
   context 'for an unpublished post' do
     background do
-      @post = Post.create(:title => 'Unpublished Post', :body => 'Lorem ipsum dolor sit amet')
+      @post = Post.create(:title => 'Unpublished Post', :slug => 'unpublished-post', :blurb => 'Lorem ipsum dolor sit amet')
     end
 
     scenario 'it does not appear in the index' do
@@ -15,6 +15,7 @@ feature 'Reading the Blog' do
 
     scenario 'it cannot be visited directly' do
       expect(lambda {
+        #post_path(@post)
         visit post_path(@post)
       }).to raise_error(ActiveRecord::RecordNotFound)
     end
@@ -28,8 +29,8 @@ feature 'Reading the Blog' do
       password = 'password'
       @admin = AdminUser.create(:email => email, :password => password)
 
-      @post = Post.create(:title => 'Awesome Blog Post', :body => 'Lorem ipsum dolor sit amet', :published => true, :author => @admin)
-      Post.create(:title => 'Another Awesome Post', :body => 'Lorem ipsum dolor sit amet', :published => true, :author => @admin)
+      @post = Post.create(:title => 'Awesome Blog Post', :slug => 'awesome-blog-post', :blurb => 'Lorem ipsum dolor sit amet', :published => true, :author => @admin)
+      Post.create(:title => 'Another Awesome Post', :slug => 'another-awesome-post', :blurb => 'Lorem ipsum dolor sit amet', :published => true, :author => @admin)
     end
 
     scenario 'Reading the blog index' do
@@ -37,14 +38,13 @@ feature 'Reading the Blog' do
 
       expect(page).to have_content 'Awesome Blog Post'
       expect(page).to have_content 'Another Awesome Post'
-      expect(page).to have_content 'Posted by: admin@example.com'
-
     end
 
     scenario 'Reading an individual blog' do
       visit root_path
-      click_link 'Awesome Blog Post'
-
+      click_link @post.title
+      puts '*'*30
+      puts post_path(@post)
       expect(current_path).to eq post_path(@post)
     end
   end

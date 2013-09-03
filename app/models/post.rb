@@ -17,7 +17,11 @@ class Post < ActiveRecord::Base
   after_initialize :set_defaults
 
   def content field
-    MarkdownService.new.render(field)
+    if field
+      MarkdownService.new.render(field)
+    else
+      ''
+    end
   end
 
   def author_name
@@ -31,6 +35,10 @@ class Post < ActiveRecord::Base
   # set defaults - taken from http://stackoverflow.com/questions/328525/what-is-the-best-way-to-set-default-values-in-activerecord
   def set_defaults
     self.published_at  ||= Time.now
+  end
+
+  def to_param
+    slug
   end
 
 end

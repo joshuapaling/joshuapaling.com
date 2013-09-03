@@ -22,12 +22,15 @@ feature 'Writing blog posts' do
     click_link 'New Post'
 
     fill_in 'post_title', :with => 'New Blog Post'
-    fill_in 'post_body', :with => "[Example.com link](http://example.com/)"
+    fill_in 'post_slug', :with => 'new-blog-post'
+    fill_in 'post_blurb', :with => 'This is the blurb [blurb.com link](http://example.com/)'
+    fill_in 'post_body', :with => "This is the body [body.com link](http://example.com/)"
     check 'post_published'
     click_button 'Create Post'
 
     visit post_path(Post.last)
 
-    page.should have_link 'Example.com link'
+    page.should have_link 'blurb.com link'
+    page.should have_link 'body.com link'
   end
 end

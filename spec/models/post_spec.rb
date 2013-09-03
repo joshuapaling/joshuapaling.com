@@ -5,7 +5,7 @@ describe Post do
     subject(:post) { Post.new } # sets the subject of this describe block
     before { post.valid? }      # runs a precondition for the test/s
 
-    [:title, :body].each do |attribute|
+    [:title, :blurb].each do |attribute|
       it "should validate presence of #{attribute}" do
         expect(post).to have_at_least(1).error_on(attribute)
         expect(post.errors.messages[attribute]).to include "can't be blank"
@@ -23,9 +23,10 @@ describe Post do
       MarkdownService.stub(:new) { markdown_service }
     end
 
-    it 'should convert its body to markdown' do
-      markdown_service.should_receive(:render).with('post body')
-      Post.new(:body => 'post body').content
+    it 'should convert its blurb to markdown' do
+      markdown_service.should_receive(:render).with('post blurb')
+      post = Post.new(:blurb => 'post blurb')
+      post.content(post.blurb)
     end
   end
 

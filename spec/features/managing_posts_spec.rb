@@ -28,6 +28,8 @@ feature 'Managing blog posts' do
       click_link 'New Post'
 
       fill_in 'post_title', :with => 'New Blog Post'
+      fill_in 'post_slug', :with => 'new-blog-post'
+      fill_in 'post_blurb', :with => 'This is the blurb'
       fill_in 'post_body', :with => 'This post was made from the Admin Interface'
       click_button 'Create Post'
 
@@ -36,7 +38,7 @@ feature 'Managing blog posts' do
 
     context 'with an existing blog post' do
       background do
-        @post = Post.create(:title => 'Awesome Blog Post', :body => 'Lorem ipsum dolor sit amet')
+        @post = Post.create(:title => 'Awesome Blog Post', :slug => 'awesome-blog-post', :blurb => 'This is the blurb', :body => 'Lorem ipsum dolor sit amet')
       end
 
       scenario 'Editing an existing blog' do

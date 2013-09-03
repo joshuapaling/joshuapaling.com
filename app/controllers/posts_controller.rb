@@ -28,6 +28,10 @@ class PostsController < ApplicationController
   def show
     @post = Post.published.find_by_slug(params[:slug])
 
+    if @post.nil?
+      raise ActiveRecord::RecordNotFound
+    end
+
     respond_to do |format|
       format.html # show.html.erb
       format.json { render json: @post }
