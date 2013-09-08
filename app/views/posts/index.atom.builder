@@ -1,5 +1,5 @@
 atom_feed do |feed|
-  feed.title "InstallFest 2013 Quick Blog"
+  feed.title "Joshua Paling's Blog"
   feed.updated @posts.first.updated_at
 
   @posts.each do |post|
@@ -8,7 +8,7 @@ atom_feed do |feed|
       entry.content post.body, :type => 'html'
 
       entry.author do |author|
-        author.name 'Installfest Attendee'
+        author.name 'Joshua Paling'
       end
     end
   end
