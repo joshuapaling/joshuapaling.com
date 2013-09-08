@@ -21,6 +21,7 @@ set :deploy_via, :remote_cache
 set :copy_exclude, [ '.git' ] # from https://makandracards.com/makandra/1180-speed-up-capistrano-deployments-using-a-remote-cached-copy-of-repository
 set :user, "joshua.paling" # To set up deploy user, follow instructions at http://www.capistranorb.com/documentation/getting-started/authentication-and-authorisation/ but if you already have an id_rsa in ~/.ssh, no need to create a new one - use the same one.
 set :deploy_to, "/var/www/vhosts/joshuapaling.com/httpdocs/"
+set :shared_children, shared_children + %w{public/uploads}
 set :use_sudo, false # deploy user will need the right permissions so we don't have to use sudo to create files / folders etc
 
 role :web, "joshuapaling.com"                          # Your HTTP server, Apache/etc
