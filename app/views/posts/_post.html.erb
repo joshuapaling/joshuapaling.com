@@ -8,32 +8,18 @@
       Categories:
       <%= post.categories.map{|c| link_to c.name, posts_category_path(c.slug) }.join(" &bull; ").html_safe %>
       <% if params[:action] == 'show' %>
-      <!-- AddThis Button BEGIN -->
-        <div class="addthis_toolbox addthis_default_style">
-          <a class="addthis_button_tweet"></a>
-          <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-        </div>
-        <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-51ea66074c301203"></script>
-        <!-- AddThis Button END -->
+        <%= render :partial => 'social_links' %>
       <% end %>
       <% if admin_user_signed_in? %>
         <%= link_to "Edit", edit_admin_post_url(post.id), target: :blank %>
       <% end %>
     </p>
-
   </header>
-
 
   <%= post.content(post.blurb).html_safe %>
   <% if params[:action] == 'show' %>
     <%= post.content(post.body).html_safe %>
-    <!-- AddThis Button BEGIN -->
-    <div class="addthis_toolbox addthis_default_style">
-    <a class="addthis_button_tweet"></a>
-    <a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
-    </div>
-    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-51ea66074c301203"></script>
-    <!-- AddThis Button END -->
+    <%= render :partial => 'social_links' %>
   <% else %>
     <%= link_to "Tell Me More ›", post_path(post.slug), class: 'more' %>
   <% end %>
