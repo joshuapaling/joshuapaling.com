@@ -4,13 +4,12 @@
 
 .post {
   border-bottom: 1px solid #ccc;
-  margin-bottom: 1.5em;
-  padding-bottom: 1.3em;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
 
   header {
-
-    h2, h3, h4, h5 {
-      margin: 0;
+    a {
+      text-decoration: none;
     }
   }
 
@@ -23,14 +22,13 @@ code {
   margin: 0 2px;
   padding: 0px 5px;
   border: 1px solid #ddd;
-  background-color: #f8f8f8;
+  background-color: #fdfdfd;
   font-weight: normal;
   color: #333;
 }
 
-
 pre {
-  background-color: #f8f8f8;
+  background-color: #fdfdfd;
   border: 1px solid #ddd;
   font-size: 13px;
   line-height: 19px;

@@ -3,10 +3,10 @@
 <head>
   <title>Joshua Paling</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
-  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
   <%= auto_discovery_link_tag(:atom, posts_path(:atom)) %>
 
+  <!-- google analytics -->
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,20 +20,19 @@
 
 </head>
 <body>
-  <%= render :partial => 'layouts/header' %>
+  <div class="fixed-width">
+    <%= render :partial => 'layouts/header' %>
 
-  <div id="main">
-
-    <div class="row">
-      <div class="large-9 columns">
-        <%= yield %>
-      </div>
-      <div class="large-3 columns">
+    <div id="main">
+        <div id="content-area">
+          <%= yield %>
+        </div>
         <%= render :partial => 'layouts/sidebar' %>
-      </div>
-    </div>
-  </div>
 
-  <%= render :partial => 'layouts/footer' %>
+        <div style="clear: both;"></div>
+    </div>
+
+    <%= render :partial => 'layouts/footer' %>
+  </div>
 </body>
 </html>

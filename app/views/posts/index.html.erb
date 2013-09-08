@@ -1,6 +1,5 @@
 
-<h1 class="page-title">BLOG: All Posts</h1>
-
+<h1 class="page-title"><%= 'blog: ' + (( @category.nil? )? 'All Posts' : @category.name) %></h1>
 <%= paginate @posts %>
 
 <%= render :partial => @posts %>

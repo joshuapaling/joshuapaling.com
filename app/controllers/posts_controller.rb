@@ -17,7 +17,7 @@ class PostsController < ApplicationController
     @posts = Post.published.joins(:categories).where("categories.id = ?", @category).page(params[:page]).per(10)
 
     respond_to do |format|
-      format.html # index.html.erb
+      format.html { render "index" }
       format.json { render json: @posts }
       format.atom
     end

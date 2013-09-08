@@ -1,48 +1,143 @@
+$blue: #0e83cd;
+$green: #3fa46a;
+$red: #cd4436;
+$orange: #f19f0f;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "kepler-std", Georgia, Times, serif;
+  color: #333;
+  border-top: 3px solid $blue;
+  font-size: 16px;
+}
+
+a {
+  color: $blue;
+
+  &:hover {
+    color: $green;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  font-size: 1.6rem;
+  margin-top: 0.8rem;
+  margin-bottom: 0.4rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  margin-top: 0.6rem;
+  margin-bottom: 0.2rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.fixed-width {
+  width: 980px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header.main {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+header.main {
+  h1.site-title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: normal;
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+    margin-top: 0;
+    text-align: center;
+  }
+}
+
+
+header.main nav {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.5rem;
+
+  a {
+    color: #666;
+    text-decoration: none;
+    display: inline-block;
+    padding: 4px 10px;
+    border-bottom: 3px solid #fff;
+    &:hover, &.current {
+      color: $blue;
+    }
+
+    &:hover {
+      border-bottom: 3px solid $blue;
+    }
+  }
+}
+
+#content-area {
+  float: left;
+  width: 735px;
+}
+
+#sidebar {
+  float: right;
+  width: 205px;
+
+  ul.side-nav {
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
 
 h1.page-title {
   border-bottom: 1px solid #ddd;
   padding-bottom: 0.2em;
   margin-bottom: 0.6em;
+  font-size: 1.5rem;
 }
 
-input[type="submit"] {
-  @include button;
-}
-
-div#main {
-  @include grid-row;
-}
-
-.top-bar .name h1 a:hover {
-  color: #b6ebff;
-}
-
-.top-bar ul.right a {
-  text-transform: uppercase;
-
-  &:hover {
-    color: #b6ebff;
-  }
-
-  span {
-    font-size: 1.5em;
-    padding-top: 0.3em;
-    line-height: 0.7em;
-    display: inline-block;
-  }
-}
-
-#sidebar {
-  //@include side-nav;
-  margin-top: 25px;
-  background: #f8f8f8;
-  padding: 13px;
-  border: 1px solid #ddd;
-
+nav.pagination {
+  padding-bottom: 1rem;
 }
 
 footer {
   padding-top: 15px;
+  padding-bottom: 15px;
   margin-top: 50px;
   color: #000;
   border-top: 1px solid #ddd;
