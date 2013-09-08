@@ -6,7 +6,7 @@
       <strong><%= post.published_at.strftime('%e %b %Y at %l%P') %></strong>
       &nbsp;
       Categories:
-      <%= post.categories.map{|c| c.name}.join(" &bull; ") %>
+      <%= post.categories.map{|c| link_to c.name, posts_category_path(c.slug) }.join(" &bull; ").html_safe %>
       <% if params[:action] == 'show' %>
       <!-- AddThis Button BEGIN -->
         <div class="addthis_toolbox addthis_default_style">
