@@ -7,7 +7,7 @@ set :rvm_type, :system # from http://stackoverflow.com/questions/5253153/rvm-err
 #default_run_options[:shell] = '/bin/bash --login'
 
 set :application, "joshua_paling_blog"
-set :repository,  "ssh://git@bitbucket.org/bbldigital/joshuapaling.com.git"
+set :repository,  "git@github.com:joshuapaling/joshuapaling.com.git"
 
 set :default_environment, {
   'PATH' => "/usr/pgsql-9.2/bin/:$PATH", # so we can see pg_config. Suggestion from http://www.pastbedti.me/2011/06/change-path-environment-with-rails-and-capistrano/
