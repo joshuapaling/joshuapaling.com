@@ -10,6 +10,7 @@ end
 
 group :development do
   gem 'better_errors'
+  gem 'rails-footnotes', '>= 3.7.9'
 end
 
 gem 'pg'

@@ -153,6 +153,8 @@ GEM
       activesupport (= 3.2.13)
       bundler (~> 1.0)
       railties (= 3.2.13)
+    rails-footnotes (3.7.9)
+      rails (>= 3.0.0)
     railties (3.2.13)
       actionpack (= 3.2.13)
       activesupport (= 3.2.13)
@@ -227,6 +229,7 @@ DEPENDENCIES
   meta_search (>= 1.1.0.pre)
   pg
   rails (~> 3.2.1)
+  rails-footnotes (>= 3.7.9)
   redcarpet
   rmagick
   rouge
