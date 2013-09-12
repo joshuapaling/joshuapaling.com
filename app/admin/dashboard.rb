@@ -16,7 +16,7 @@ ActiveAdmin.register_page "Dashboard" do
         panel "Recently Published Posts" do
           ul do
             Post.published.limit(5).order('published_at DESC').map do |post|
-              li link_to(post.title, admin_post_path(post))
+              li link_to(post.title, edit_admin_post_path(post))
             end
           end
         end
