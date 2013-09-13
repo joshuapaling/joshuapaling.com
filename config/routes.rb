@@ -21,6 +21,7 @@ QuickBlog::Application.routes.draw do
   get 'post/:slug', to: 'posts#show', as: 'post'
 
   get '/about', :to => 'pages#about'
+  get '/o-and-x', :to => 'pages#o_and_x'
 
   match '/404', :to => 'errors#not_found'
   match '/500', :to => 'errors#internal_error'

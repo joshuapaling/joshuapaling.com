@@ -2,11 +2,14 @@
   <h1 class="site-title">Joshua Paling</h1>
   <h2>(aka Joss)<h2>
   <nav>
-    <% currentClass = (request.fullpath != '/about')? 'current' : '' %>
+    <% currentClass = (request.fullpath != '/about' && request.fullpath != '/o-and-x')? 'current' : '' %>
     <%= link_to 'blog', posts_path, class: currentClass %>
 
     <% currentClass = (request.fullpath == '/about')? 'current' : '' %>
     <%= link_to 'about', '/about', class: currentClass %>
+
+    <% currentClass = (request.fullpath == '/o-and-x')? 'current' : '' %>
+    <%= link_to 'o & x', '/o-and-x', class: currentClass %>
 
     <%= link_to raw('<span aria-hidden="true" class="icon-github"></span>'), 'https://github.com/joshuapaling', target: 'blank' %>
     <%= link_to raw('<span aria-hidden="true" class="icon-stackoverflow"></span>'), 'http://stackoverflow.com/users/1373987/joshua-paling', target: 'blank' %>
