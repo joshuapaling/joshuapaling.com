@@ -3,7 +3,9 @@ window.JoshuaPaling =
   Collections: {}
   Views: {}
   Routers: {}
-  initialize: -> alert 'Hello from Backbone!'
+  initialize: ->
+    new JoshuaPaling.Routers.OxGames()
+    Backbone.history.start({ root: "/o-and-x" })
 
 $(document).ready ->
   JoshuaPaling.initialize()
