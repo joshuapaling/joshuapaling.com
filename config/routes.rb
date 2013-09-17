@@ -1,4 +1,4 @@
-QuickBlog::Application.routes.draw do
+JoshuaPaling::Application.routes.draw do
 
   # redirect all non-www to www - from Duke's answer: http://stackoverflow.com/questions/4046960/how-to-redirect-without-www-using-rails-3-rack
   constraints(:host => /^www\./) do

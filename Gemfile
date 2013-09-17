@@ -50,3 +50,5 @@ gem 'therubyracer' # based on http://stackoverflow.com/questions/9057475/rake-db
 
 gem 'rmagick'
 gem 'carrierwave'
+
+gem 'backbone-on-rails'
