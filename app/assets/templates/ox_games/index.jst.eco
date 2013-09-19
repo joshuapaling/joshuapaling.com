@@ -1,13 +1,15 @@
+<button class="new-game">New Game</button>
+<div class="whos-turn">Next move: <span><%= @game.get('whos_turn') %></span>'s</div>
 <div class="gameboard">
-  <div class="square top-left"></div>
-  <div class="square top-middle"></div>
-  <div class="square top-right"></div>
+  <div class="square" data-row="1" data-col="1"><%= @game.get('row1_col1') %></div>
+  <div class="square" data-row="1" data-col="2"><%= @game.get('row1_col2') %></div>
+  <div class="square" data-row="1" data-col="3"><%= @game.get('row1_col3') %></div>
 
-  <div class="square middle-left"><%= 'X' %></div>
-  <div class="square middle-middle"></div>
-  <div class="square middle-right"></div>
+  <div class="square" data-row="2" data-col="1"><%= @game.get('row2_col1') %></div>
+  <div class="square" data-row="2" data-col="2"><%= @game.get('row2_col2') %></div>
+  <div class="square" data-row="2" data-col="3"><%= @game.get('row2_col3') %></div>
 
-  <div class="square bottom-left"></div>
-  <div class="square bottom-middle"></div>
-  <div class="square bottom-right"><%= '0' %></div>
+  <div class="square" data-row="3" data-col="1"><%= @game.get('row3_col1') %></div>
+  <div class="square" data-row="3" data-col="2"><%= @game.get('row3_col2') %></div>
+  <div class="square" data-row="3" data-col="3"><%= @game.get('row3_col3') %></div>
 </div>
