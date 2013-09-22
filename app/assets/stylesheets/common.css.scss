@@ -2,6 +2,7 @@ $blue: #0e83cd;
 $green: #3fa46a;
 $red: #cd4436;
 $orange: #f19f0f;
+$title-font: "kepler-std", Georgia, Times, serif;
 
 * {
   margin: 0;
@@ -9,7 +10,7 @@ $orange: #f19f0f;
 }
 
 body {
-  font-family: "kepler-std", Georgia, Times, serif;
+  font-family: $title-font;
   color: #333;
   border-top: 3px solid $blue;
   font-size: 16px;

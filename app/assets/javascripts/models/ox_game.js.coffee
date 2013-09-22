@@ -14,13 +14,14 @@ class JoshuaPaling.Models.OxGame extends Backbone.Model
     row3_col2: ''
     row3_col3: ''
     winner: ''
+    game_over: false
 
   initialize: ->
     @set(whos_turn: @naught)
 
   handleMove: (event) ->
-    if @get('winner')
-      return # can't go after the game has been won
+    if @get('game_over')
+      return
 
     if $(event.target).html()
       return # can't go in the same place twice
@@ -36,16 +37,27 @@ class JoshuaPaling.Models.OxGame extends Backbone.Model
     else
       @set(whos_turn: @cross)
 
+    @checkGameOver()
+
+  checkGameOver: ->
     @checkForWinner()
+    if @get('winner')
+      @set('game_over', true)
+    else
+      @checkAllSquaresFull()
+
+  checkAllSquaresFull: ->
+    for row in [1..3] by 1
+      for col in [1..3] by 1
+        rowX_colY = 'row' + row + '_col' + col
+        if not @get(rowX_colY)
+          return
+    @set('game_over', true)
 
   checkForWinner: ->
-    winner = @checkRowsForWinner()
-    if not winner
-      winner = @checkColsForWinner()
-    if not winner
-      winner = @checkDiagonalsForWinner()
-    if winner
-      @set('winner', winner)
+    @checkRowsForWinner()
+    @checkColsForWinner()
+    @checkDiagonalsForWinner()
 
   checkRowsForWinner: ->
     for row in [1..3] by 1
@@ -53,7 +65,7 @@ class JoshuaPaling.Models.OxGame extends Backbone.Model
       col2 = @get('row' + row + '_col2')
       col3 = @get('row' + row + '_col3')
       if col1 != '' && col1 == col2 && col1 == col3
-        return col1
+        return @set('winner', col1)
 
   checkColsForWinner: ->
     for col in [1..3] by 1
@@ -61,15 +73,15 @@ class JoshuaPaling.Models.OxGame extends Backbone.Model
       row2 = @get('row2_col' + col)
       row3 = @get('row3_col' + col)
       if row1 isnt '' && row1 is row2 && row1 is row3
-        return row1
+        return @set('winner', row1)
 
   checkDiagonalsForWinner: ->
     center = @get('row2_col2')
     if center != ''
       if center is @get('row1_col1') and center is @get('row3_col3')
-        return center
+        return @set('winner', center)
       if center is @get('row1_col3') and center is @get('row3_col1')
-        return center
+        return @set('winner', center)
 
   newGame: (event) ->
     @clear()
