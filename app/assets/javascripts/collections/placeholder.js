@@ -1,0 +1,1 @@
+// place holder to solve this issue: http://stackoverflow.com/questions/8171972/require-tree-argument-must-be-a-directory-rails-3-1-1-precompile-assets
