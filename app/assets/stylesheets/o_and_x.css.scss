@@ -1,0 +1,47 @@
+// Place all the styles related to o and x's here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.new-game {
+  border: 1px solid #ccc;
+  background: #fff;
+  padding: 5px 15px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: $title-font;
+  font-size: 1.4em;
+  cursor: pointer;
+
+  &:hover {
+    color: $blue;
+  }
+}
+
+.game-over, .whos-turn {
+  text-align: center;
+}
+
+.game-over {
+  color: $blue;
+}
+
+.gameboard {
+  margin: 25px;
+  width: 300px;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+
+  .square {
+    width: 100px;
+    height: 100px;
+    float: left;
+    border: 1px solid #ccc;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: 48px;
+  }
+
+}

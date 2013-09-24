@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-QuickBlog::Application.load_tasks
+JoshuaPaling::Application.load_tasks
