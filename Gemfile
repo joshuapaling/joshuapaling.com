@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '~> 3.2.1'
+gem 'rails', '~> 4.0.1'
 
 # For gems only used in development
 group :development, :test do
@@ -15,13 +15,10 @@ end
 
 gem 'pg'
 
-group :assets do
-  gem 'sass-rails',   '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
-  gem 'uglifier', '>= 1.0.3'
-
-  gem 'compass-rails'
-end
+gem 'sass-rails',   '~> 4.0.0'
+gem 'coffee-rails', '~> 4.0.0'
+gem 'uglifier', '>= 1.3.0'
+gem 'compass-rails'
 
 gem 'jquery-rails'
 
@@ -38,8 +35,8 @@ group :development do
   gem 'rvm-capistrano'
 end
 
-gem 'activeadmin'
-gem "meta_search", '>= 1.1.0.pre'
+gem 'activeadmin', github: 'gregbell/active_admin'
+gem "meta_search"#, '>= 1.1.0.pre'
 
 gem 'redcarpet'
 gem 'rouge'
@@ -52,3 +49,8 @@ gem 'rmagick'
 gem 'carrierwave'
 
 gem 'backbone-on-rails'
+
+gem 'devise'
+
+# add these gems to help with the transition to rails 4:
+gem 'protected_attributes'

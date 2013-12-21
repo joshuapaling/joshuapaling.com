@@ -1,5 +1,4 @@
 class Post < ActiveRecord::Base
-  attr_accessible :body, :title, :slug, :published, :author, :author_id, :published_at, :blurb, :category_ids
 
   has_many :comments
   has_many :categorizations
@@ -10,9 +9,9 @@ class Post < ActiveRecord::Base
   validates_presence_of :blurb, :title, :published_at, :slug
   validates_uniqueness_of :slug
 
-  default_scope order('published_at DESC')
-  scope :published, where(:published => true)
-  scope :unpublished, where(:published => false)
+  default_scope { order('published_at DESC') }
+  scope :published, -> { where(:published => true) }
+  scope :unpublished, -> { where(:published => false) }
 
   after_initialize :set_defaults
 

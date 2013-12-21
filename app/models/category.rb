@@ -1,5 +1,4 @@
 class Category < ActiveRecord::Base
-  attr_accessible :name, :slug
   has_many :categorizations
   has_many :posts, :through => :categorizations
 

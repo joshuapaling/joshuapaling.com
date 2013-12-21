@@ -2,7 +2,7 @@ JoshuaPaling::Application.routes.draw do
 
   # redirect all www to non-www - from Duke's answer: http://stackoverflow.com/questions/4046960/how-to-redirect-without-www-using-rails-3-rack
   constraints(:host => /^www\./) do
-    match "(*x)" => redirect { |params, request|
+    get "(*x)" => redirect { |params, request|
       URI.parse(request.url).tap {|url| url.host.sub!('www.', '') }.to_s
     }
   end
@@ -13,7 +13,7 @@ JoshuaPaling::Application.routes.draw do
 
   root :to => 'posts#index'
 
-  resources :posts, except: [:show] do
+  resources :posts, only: [:index] do
     resources :comments, :only => [:create]
   end
 
@@ -23,7 +23,7 @@ JoshuaPaling::Application.routes.draw do
   get '/about', :to => 'pages#about'
   get '/o-and-x', :to => 'pages#o_and_x'
 
-  match '/404', :to => 'errors#not_found'
-  match '/500', :to => 'errors#internal_error'
-  match '/422', :to => 'errors#unprocessable_entity'
+  get '/404', :to => 'errors#not_found'
+  get '/500', :to => 'errors#internal_error'
+  get '/422', :to => 'errors#unprocessable_entity'
 end
