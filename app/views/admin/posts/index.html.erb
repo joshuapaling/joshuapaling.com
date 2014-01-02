@@ -1,0 +1,27 @@
+<h1>Listing admin_posts</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @admin_posts.each do |admin_post| %>
+      <tr>
+        <td><%= admin_post.title %></td>
+        <td>
+          <%= link_to 'Show', admin_post %> |
+          <%= link_to 'Edit', edit_admin_post_path(admin_post) %> |
+          <%= link_to 'Destroy', admin_post, method: :delete, data: { confirm: 'Are you sure?' } %>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Post', new_admin_post_path %>

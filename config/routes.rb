@@ -23,6 +23,10 @@ JoshuaPaling::Application.routes.draw do
   get '/about', :to => 'pages#about'
   get '/o-and-x', :to => 'pages#o_and_x'
 
+  namespace :admin do
+    resources :posts
+  end
+
   get '/404', :to => 'errors#not_found'
   get '/500', :to => 'errors#internal_error'
   get '/422', :to => 'errors#unprocessable_entity'

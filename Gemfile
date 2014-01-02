@@ -36,7 +36,7 @@ group :development do
 end
 
 gem 'activeadmin', github: 'gregbell/active_admin'
-gem "meta_search"#, '>= 1.1.0.pre'
+# gem "meta_search"#, '>= 1.1.0.pre'
 
 gem 'redcarpet'
 gem 'rouge'
