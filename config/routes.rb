@@ -7,10 +7,6 @@ JoshuaPaling::Application.routes.draw do
     }
   end
 
-  ActiveAdmin.routes(self)
-
-  devise_for :admin_users, ActiveAdmin::Devise.config
-
   root :to => 'posts#index'
 
   resources :posts, only: [:index] do
