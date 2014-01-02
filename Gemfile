@@ -48,6 +48,3 @@ gem 'carrierwave'
 gem 'backbone-on-rails'
 
 gem 'devise'
-
-# add these gems to help with the transition to rails 4:
-gem 'protected_attributes'

@@ -20,7 +20,7 @@ JoshuaPaling::Application.routes.draw do
   get '/o-and-x', :to => 'pages#o_and_x'
 
   namespace :admin do
-    resources :posts
+    resources :posts, param: :slug
   end
 
   get '/404', :to => 'errors#not_found'

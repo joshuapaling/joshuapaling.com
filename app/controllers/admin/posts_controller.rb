@@ -1,6 +1,6 @@
 class Admin::PostsController < ApplicationController
   layout 'admin'
-  before_action :set_admin_post, only: [:show, :edit, :update, :destroy]
+  before_action :set_post, only: [:show, :edit, :update, :destroy]
 
   # GET /admin/posts
   def index
@@ -43,17 +43,17 @@ class Admin::PostsController < ApplicationController
   # DELETE /admin/posts/1
   def destroy
     @admin_post.destroy
-    redirect_to admin_posts_url, notice: 'Post was successfully destroyed.'
+    redirect_to posts_url, notice: 'Post was successfully destroyed.'
   end
 
   private
     # Use callbacks to share common setup or constraints between actions.
-    def set_admin_post
-      @admin_post = Post.find_by_slug(params[:id])
+    def set_post
+      @admin_post = Post.find_by_slug(params[:slug])
     end
 
     # Only allow a trusted parameter "white list" through.
     def admin_post_params
-      params[:admin_post]
+      params.require(:post).permit!
     end
 end

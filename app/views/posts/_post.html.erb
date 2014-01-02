@@ -3,10 +3,10 @@
   <header>
     <h1>
       <%= link_to_unless_current post.title, post_path(post.slug) %>
-      <% if admin_user_signed_in? %>
+      <%# if user_signed_in? %>
         &nbsp;
-        <%= link_to "(edit)", edit_admin_post_url(post.id), target: :blank %>
-      <% end %>
+        <%#= link_to "(edit)", edit_admin_post_url(post.id), target: :blank %>
+      <%# end %>
     </h1>
     <p>
       Posted
