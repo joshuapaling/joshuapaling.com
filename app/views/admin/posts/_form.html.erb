@@ -1,4 +1,4 @@
-<%= form_for(@admin_post,  url: admin_post_path(@admin_post)) do |f| %>
+<%= form_for [:admin, @admin_post] do |f| %>
   <% if @admin_post.errors.any? %>
     <div id="error_explanation">
       <h2><%= pluralize(@admin_post.errors.count, "error") %> prohibited this admin_post from being saved:</h2>
