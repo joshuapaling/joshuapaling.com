@@ -6,18 +6,18 @@
   <%= javascript_include_tag "vendor/custom.modernizr" %>
   <%= csrf_meta_tags %>
   <%= auto_discovery_link_tag(:atom, posts_path(:atom)) %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 <body>
   <div class="fixed-width">
-    <%#= render :partial => 'layouts/header' %>
+    <%= render :partial => 'layouts/admin_header' %>
 
     <div id="main">
-      <h1>ADMIN AREA</h1>
-        <div id="content-area">
-          <%= yield %>
-        </div>
+      <div id="content-area">
+        <%= yield %>
+      </div>
 
-        <div style="clear: both;"></div>
+      <div style="clear: both;"></div>
     </div>
 
     <%#= render :partial => 'layouts/footer' %>
