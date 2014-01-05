@@ -1,20 +1,14 @@
-<%= form_for [:admin, @admin_post] do |f| %>
-  <% if @admin_post.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@admin_post.errors.count, "error") %> prohibited this admin_post from being saved:</h2>
+<%= simple_form_for [:admin, @admin_post] do |f| %>
+  <%= f.error_notification %>
 
-      <ul>
-      <% @admin_post.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
-    </div>
-  <% end %>
-
-  <%= f.text_field :title %>
-  <%= f.text_area :body %>
-
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+  <%= f.input :slug %>
+  <%= f.input :title %>
+  <%= f.input :published_at %>
+  <%= f.input :blurb %>
+  <%= f.input :body %>
+  <%= f.input :published %>
+  <%= f.association :author %>
+  <%= f.association :categories, as: :check_boxes %>
+  <%= f.error :base %>
+  <%= f.button :submit %>
 <% end %>

@@ -49,3 +49,4 @@ gem 'carrierwave'
 gem 'backbone-on-rails'
 
 gem 'devise'
+gem 'simple_form'
