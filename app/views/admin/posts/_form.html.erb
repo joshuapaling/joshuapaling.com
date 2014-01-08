@@ -1,14 +1,24 @@
 <%= simple_form_for [:admin, @admin_post] do |f| %>
   <%= f.error_notification %>
 
-  <%= f.input :slug %>
-  <%= f.input :title %>
-  <%= f.input :published_at %>
-  <%= f.input :blurb %>
-  <%= f.input :body %>
-  <%= f.input :published %>
-  <%= f.association :author %>
-  <%= f.association :categories, as: :check_boxes %>
-  <%= f.error :base %>
-  <%= f.button :submit %>
+  <div class="row">
+    <div class="large-6 columns">
+      <%= f.input :slug %>
+    </div>
+    <div class="large-6 columns">
+      <%= f.input :title %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-12 columns">
+    <%= f.input :published_at %>
+    <%= f.input :blurb %>
+    <%= f.input :body %>
+    <%= f.input :published %>
+    <%= f.association :author %>
+    <%= f.association :categories, as: :check_boxes %>
+    <%= f.error :base %>
+    <%= f.button :submit %>
+    </div>
+  </div>
 <% end %>
