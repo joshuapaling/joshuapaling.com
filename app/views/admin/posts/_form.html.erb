@@ -2,6 +2,18 @@
   <%= f.error_notification %>
 
   <div class="row">
+    <div class="large-2 columns">
+      <%= f.input :published %>
+    </div>
+    <div class="large-4 columns">
+      <%= f.input :published_at, as: :string %>
+    </div>
+    <div class="large-6 columns">
+      <%= f.association :author %>
+    </div>
+  </div>
+
+  <div class="row">
     <div class="large-6 columns">
       <%= f.input :slug %>
     </div>
@@ -9,14 +21,18 @@
       <%= f.input :title %>
     </div>
   </div>
+
   <div class="row">
     <div class="large-12 columns">
-    <%= f.input :published_at %>
+      <%= f.association :categories, as: :check_boxes %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
     <%= f.input :blurb %>
     <%= f.input :body %>
-    <%= f.input :published %>
-    <%= f.association :author %>
-    <%= f.association :categories, as: :check_boxes %>
+
     <%= f.error :base %>
     <%= f.button :submit %>
     </div>

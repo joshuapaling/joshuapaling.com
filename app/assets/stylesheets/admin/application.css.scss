@@ -1,4 +1,20 @@
-/*
- *= require foundation_and_overrides
- *= require_self
- */
+
+@import 'foundation_and_overrides';
+
+.boolean,
+.check_boxes {
+  label:not(.control-label) {
+    display: inline;
+    margin-right: 1.5rem;
+    // white-space: nowrap;
+    line-height: 2rem;
+  }
+
+  label input[type="checkbox"], label input[type="radio"] {
+    display: inline-block;
+    // margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0;
+    vertical-align: baseline;
+  }
+}
