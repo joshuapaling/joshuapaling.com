@@ -1,0 +1,17 @@
+<%= simple_form_for([:admin, @category]) do |f| %>
+  <div class="row">
+    <div class="large-6 columns">
+      <%= f.input :name %>
+    </div>
+    <div class="large-6 columns">
+      <%= f.input :slug %>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12 columns">
+      <%= f.error :base %>
+      <%= f.button :submit %>
+    </div>
+  </div>
+<% end %>

@@ -2,17 +2,6 @@ source 'https://rubygems.org'
 
 gem 'rails', '~> 4.0.1'
 
-# For gems only used in development
-group :development, :test do
-	# gem 'sqlite3'
-	gem 'binding_of_caller'
-end
-
-group :development do
-  gem 'better_errors'
-  gem 'rails-footnotes', '>= 3.7.9'
-end
-
 gem 'pg'
 
 gem 'sass-rails',   '~> 4.0.0'
@@ -25,6 +14,7 @@ gem 'jquery-rails'
 
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
+  gem 'binding_of_caller'
 end
 
 group :test do
@@ -34,6 +24,11 @@ end
 group :development do
   gem "capistrano", "~> 2.15.5"
   gem 'rvm-capistrano'
+
+  gem 'better_errors'
+  gem 'rails-footnotes', '>= 3.7.9'
+  gem "schema_to_scaffold", "~> 0.5.0"
+  gem "rails-admin-scaffold", "~> 0.0.2"
 end
 
 gem 'redcarpet'

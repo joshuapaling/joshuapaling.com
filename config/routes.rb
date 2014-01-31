@@ -21,6 +21,8 @@ JoshuaPaling::Application.routes.draw do
 
   namespace :admin do
     resources :posts, param: :slug
+    resources :categories
+    resources :images
   end
 
   get '/404', :to => 'errors#not_found'

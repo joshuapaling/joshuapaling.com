@@ -1,4 +1,4 @@
-<%= simple_form_for [:admin, @admin_post] do |f| %>
+<%= simple_form_for [:admin, @post] do |f| %>
   <%= f.error_notification %>
 
   <div class="row">
@@ -30,11 +30,15 @@
 
   <div class="row">
     <div class="large-12 columns">
-    <%= f.input :blurb %>
-    <%= f.input :body %>
+      <%= f.input :blurb %>
+      <%= f.input :body %>
+    </div>
+  </div>
 
-    <%= f.error :base %>
-    <%= f.button :submit %>
+  <div class="row">
+    <div class="large-12 columns">
+      <%= f.error :base %>
+      <%= f.button :submit %>
     </div>
   </div>
 <% end %>
