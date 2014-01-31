@@ -23,6 +23,15 @@
       <li>
         <%= link_to 'Images', admin_images_path %>
       </li>
+      <li>
+      <li>
+        <%= link_to 'My Account', edit_user_registration_path %>
+      </li>
+      <li>
+        <%= link_to 'logout', destroy_user_session_path, method: :delete %>
+      </li>
+        <%= ' Signed in as' + current_user.email unless current_user.nil? %></h1>
+      </li>
     </ul>
   </section>
 </nav>

@@ -1,5 +1,11 @@
 JoshuaPaling::Application.routes.draw do
 
+  devise_for :users, :skip => [:registrations]
+    as :user do # solution 2 from https://github.com/plataformatec/devise/wiki/How-To:-Allow-users-to-edit-their-password
+      get 'users/edit' => 'devise/registrations#edit', :as => 'edit_user_registration'
+      put 'users/:id' => 'devise/registrations#update', :as => 'user_registration'
+    end
+
   # redirect all www to non-www - from Duke's answer: http://stackoverflow.com/questions/4046960/how-to-redirect-without-www-using-rails-3-rack
   constraints(:host => /^www\./) do
     get "(*x)" => redirect { |params, request|
@@ -20,6 +26,7 @@ JoshuaPaling::Application.routes.draw do
   get '/o-and-x', :to => 'pages#o_and_x'
 
   namespace :admin do
+    root 'posts#index'
     resources :posts, param: :slug
     resources :categories
     resources :images
