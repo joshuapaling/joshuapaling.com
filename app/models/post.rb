@@ -3,8 +3,6 @@ class Post < ActiveRecord::Base
   has_many :categorizations
   has_many :categories, :through => :categorizations
 
-  belongs_to :author, :class_name => "AdminUser"
-
   validates_presence_of :blurb, :title, :published_at, :slug
   validates_uniqueness_of :slug
 
@@ -19,14 +17,6 @@ class Post < ActiveRecord::Base
       MarkdownService.new.render(field)
     else
       ''
-    end
-  end
-
-  def author_name
-    if author
-      author.name
-    else
-      'Nobody'
     end
   end
 

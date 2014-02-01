@@ -29,8 +29,8 @@ feature 'Reading the Blog' do
       password = 'password'
       @admin = AdminUser.create(:email => email, :password => password)
 
-      @post = Post.create(:title => 'Awesome Blog Post', :slug => 'awesome-blog-post', :blurb => 'Lorem ipsum dolor sit amet', :published => true, :author => @admin)
-      Post.create(:title => 'Another Awesome Post', :slug => 'another-awesome-post', :blurb => 'Lorem ipsum dolor sit amet', :published => true, :author => @admin)
+      @post = Post.create(:title => 'Awesome Blog Post', :slug => 'awesome-blog-post', :blurb => 'Lorem ipsum dolor sit amet', :published => true)
+      Post.create(:title => 'Another Awesome Post', :slug => 'another-awesome-post', :blurb => 'Lorem ipsum dolor sit amet', :published => true)
     end
 
     scenario 'Reading the blog index' do
