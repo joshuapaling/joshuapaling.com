@@ -12,4 +12,16 @@
 //
 //= require jquery
 //= require jquery_ujs
-$(function(){ $(document).foundation(); });
+//= require 'epiceditor'
+$(function(){
+  //$(document).foundation();
+  var options = {
+    textarea: 'post_body',
+    theme: {
+      base: '<%= asset_path("base/epiceditor.css") %>',
+      preview: '<%= asset_path("preview/github.css") %>',
+      editor: '<%= asset_path("editor/epic-dark.css") %>'
+    }
+  }
+  var editor = new EpicEditor(options).load();
+});

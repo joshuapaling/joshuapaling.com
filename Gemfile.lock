@@ -84,6 +84,8 @@ GEM
       execjs
     eco-source (1.1.0.rc.1)
     ejs (1.1.1)
+    epic-editor-rails (0.2.3)
+      railties (>= 3.2, < 5.0)
     erubis (2.7.0)
     execjs (2.0.2)
     foundation-rails (5.0.2.0)
@@ -209,6 +211,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   compass-rails
   devise
+  epic-editor-rails
   foundation-rails
   jquery-rails
   kaminari

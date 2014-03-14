@@ -45,3 +45,5 @@ gem 'backbone-on-rails'
 
 gem 'devise'
 gem 'simple_form'
+
+gem 'epic-editor-rails'
