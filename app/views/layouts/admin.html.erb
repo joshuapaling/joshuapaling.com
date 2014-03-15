@@ -1,26 +1,32 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <title>Joshua Paling</title>
-  <%= stylesheet_link_tag    "admin/application", :media => "all" %>
-  <%= csrf_meta_tags %>
-  <%= auto_discovery_link_tag(:atom, posts_path(:atom)) %>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
-<body>
-  <div class="fixed-width">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Joshua Paling</title>
+    <%= stylesheet_link_tag    "admin/application", :media => "all" %>
+    <%= csrf_meta_tags %>
+    <%= auto_discovery_link_tag(:atom, posts_path(:atom)) %>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
     <%= render :partial => 'layouts/admin_header' %>
 
-    <div id="main" class="row">
-      <div class="large-12 columns">
-        <%= yield %>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>Hello, world!</h1>
+          <%= yield %>
+        </div>
       </div>
-
-      <div style="clear: both;"></div>
     </div>
-
-    <%#= render :partial => 'layouts/footer' %>
-  </div>
-  <%= javascript_include_tag "admin/application" %>
-</body>
+    <%= javascript_include_tag "admin/application" %>
+  </body>
 </html>

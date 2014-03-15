@@ -38,6 +38,8 @@ GEM
       erubis (>= 2.6.6)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap-sass (3.1.1.0)
+      sass (~> 3.2)
     builder (3.1.4)
     capistrano (2.15.5)
       highline
@@ -88,9 +90,6 @@ GEM
       railties (>= 3.2, < 5.0)
     erubis (2.7.0)
     execjs (2.0.2)
-    foundation-rails (5.0.2.0)
-      railties (>= 3.1.0)
-      sass (>= 3.2.0)
     fssm (0.2.10)
     highline (1.6.20)
     hike (1.2.3)
@@ -205,6 +204,7 @@ DEPENDENCIES
   backbone-on-rails
   better_errors
   binding_of_caller
+  bootstrap-sass (~> 3.1.1)
   capistrano (~> 2.15.5)
   capybara
   carrierwave
@@ -212,7 +212,6 @@ DEPENDENCIES
   compass-rails
   devise
   epic-editor-rails
-  foundation-rails
   jquery-rails
   kaminari
   pg
