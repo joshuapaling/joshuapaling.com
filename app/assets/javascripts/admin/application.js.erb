@@ -16,12 +16,18 @@
 $(function(){
   //$(document).foundation();
   var options = {
-    textarea: 'post_body',
     theme: {
       base: '<%= asset_path("base/epiceditor.css") %>',
       preview: '<%= asset_path("preview/github.css") %>',
       editor: '<%= asset_path("editor/epic-dark.css") %>'
     }
   }
-  var editor = new EpicEditor(options).load();
+
+  options.textarea = 'post_body';
+  options.container = 'epiceditor_post_body';
+  var post_body_editor = new EpicEditor(options).load();
+
+  options.textarea = 'post_blurb';
+  options.container = 'epiceditor_post_blurb';
+  var post_burb_editor = new EpicEditor(options).load();
 });

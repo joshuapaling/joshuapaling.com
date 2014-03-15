@@ -2,11 +2,11 @@
   <%= f.error_notification %>
 
   <div class="row">
-    <div class="large-2 columns">
-      <%= f.input :published %>
-    </div>
     <div class="large-4 columns">
       <%= f.input :published_at, as: :string %>
+    </div>
+    <div class="large-2 columns">
+      <%= f.input :published %>
     </div>
     <div class="large-6 columns">
       <!-- placeholder -->
@@ -23,27 +23,38 @@
   </div>
 
   <div class="row">
-    <div class="large-12">
-      Epic Editor: <div id="epiceditor"></div>
-    </div>
-  </div>
-
-  <div class="row">
     <div class="large-12 columns">
       <%= f.association :categories, as: :check_boxes %>
     </div>
   </div>
 
   <div class="row">
-    <div class="large-12 columns">
+    <div class="large-12 columns" style="display: none;">
       <%= f.input :blurb %>
       <%= f.input :body %>
     </div>
   </div>
 
   <div class="row">
+    <div class="large-12">
+      <%= f.label :blurb %>
+      <div id="epiceditor_post_blurb"></div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="large-12">
+      <%= f.label :body %>
+      <div id="epiceditor_post_body"></div>
+    </div>
+  </div>
+
+  <div class="row">
     <div class="large-12 columns">
       <%= f.error :base %>
+      <br />
+      <br />
+      <br />
       <%= f.button :submit %>
     </div>
   </div>
