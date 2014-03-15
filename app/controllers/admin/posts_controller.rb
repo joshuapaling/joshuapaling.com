@@ -20,7 +20,7 @@ class Admin::PostsController < Admin::BaseController
     @post = Post.new(admin_post_params)
 
     if @post.save
-      redirect_to @post, notice: 'Post was successfully created.'
+      redirect_to admin_posts_path, notice: 'Post was successfully created.'
     else
       render action: 'new'
     end
@@ -29,7 +29,7 @@ class Admin::PostsController < Admin::BaseController
   # PATCH/PUT /admin/posts/1
   def update
     if @post.update(admin_post_params)
-      redirect_to @post, notice: 'Post was successfully updated.'
+      redirect_to admin_posts_path, notice: 'Post was successfully updated.'
     else
       render action: 'edit'
     end
@@ -38,7 +38,7 @@ class Admin::PostsController < Admin::BaseController
   # DELETE /admin/posts/1
   def destroy
     @post.destroy
-    redirect_to posts_url, notice: 'Post was successfully destroyed.'
+    redirect_to admin_posts_path, notice: 'Post was successfully destroyed.'
   end
 
   private
