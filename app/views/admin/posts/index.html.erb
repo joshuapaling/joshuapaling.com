@@ -1,6 +1,6 @@
 <h1>Listing posts</h1>
 
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
       <th>Title</th>
@@ -10,7 +10,7 @@
 
   <tbody>
     <% @posts.each do |post| %>
-      <tr>
+      <tr class="<%= 'warning' unless post.published %>">
         <td><%= post.title %></td>
         <td>
           <%= link_to 'Show', post %> |
