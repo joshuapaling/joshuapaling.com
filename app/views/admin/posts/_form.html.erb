@@ -3,10 +3,10 @@
   <div class="container-fluid">
     <div class="row">
       <div class="col-sm-4">
-        <%= f.input :published_at, as: :string, wrapper_html: { class: 'form-group' }, input_html: { class: 'form-control' } %>
+        <%= f.input :published_at, as: :string %>
       </div>
       <div class="col-sm-2">
-        <%= f.input :published, wrapper_html: { class: 'checkbox' }, input_html: { class: 'checkbox' } %>
+        <%= f.input :published, wrapper: :checkbox %>
 
         <div class="checkbox">
           <label>
@@ -22,16 +22,16 @@
 
     <div class="row">
       <div class="col-sm-6">
-        <%= f.input :slug, wrapper_html: { class: 'form-group' }, input_html: { class: 'form-control' } %>
+        <%= f.input :slug %>
       </div>
       <div class="col-sm-6">
-        <%= f.input :title, wrapper_html: { class: 'form-group' }, input_html: { class: 'form-control' } %>
+        <%= f.input :title %>
       </div>
     </div>
 
     <div class="row">
       <div class="col-sm-12">
-        <%= f.association :categories, as: :check_boxes, wrapper_html: { class: 'form-group' }, input_html: { class: 'checkbox-inline' } %>
+        <%= f.association :categories, as: :check_boxes, wrapper: :checkbox %>
 
         <label class="checkbox-inline">
           <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
@@ -47,8 +47,8 @@
 
     <div class="row">
       <div class="col-sm-12" style="display: none;">
-        <%= f.input :blurb, wrapper_html: { class: 'form-group' }, input_html: { class: 'form-control' } %>
-        <%= f.input :body, wrapper_html: { class: 'form-group' }, input_html: { class: 'form-control' } %>
+        <%= f.input :blurb %>
+        <%= f.input :body %>
       </div>
     </div>
 
