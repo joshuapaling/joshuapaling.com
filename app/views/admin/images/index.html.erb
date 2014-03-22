@@ -1,12 +1,12 @@
 <h1>Listing images</h1>
+<%= link_to 'New Image', new_admin_image_path, class: 'btn btn-primary' %>
 
 <table class="table table-striped">
   <thead>
     <tr>
-      <th>Alt</th>
       <th>Image</th>
-      <th></th>
-      <th></th>
+      <th>Path</th>
+      <th>Alt</th>
       <th></th>
     </tr>
   </thead>
@@ -14,11 +14,17 @@
   <tbody>
     <% @images.each do |image| %>
       <tr>
-        <td><%= image.alt %></td>
+        <td><%= image_tag image.image.thumb %></td>
         <td><%= image.image %></td>
-        <td><%= link_to 'Show', [:admin, image] %></td>
-        <td><%= link_to 'Edit', edit_admin_image_path(image) %></td>
-        <td><%= link_to 'Destroy', [:admin, image], method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= image.alt %></td>
+        <td>
+          <%= link_to 'Edit', edit_admin_image_path(image), class: 'btn btn-sm btn-default' %>
+          <%= link_to raw('<span class="glyphicon glyphicon-trash"></span>'), [:admin, image],
+            method: :delete,
+            class: 'btn btn-sm btn-default',
+            data: { confirm: 'Are you sure?' }
+          %>
+        </td>
       </tr>
     <% end %>
   </tbody>
@@ -26,4 +32,4 @@
 
 <br>
 
-<%= link_to 'New Image', new_admin_image_path %>
+<%= link_to 'New Image', new_admin_image_path, class: 'btn btn-primary' %>

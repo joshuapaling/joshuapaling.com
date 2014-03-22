@@ -24,7 +24,7 @@ class Admin::ImagesController < Admin::BaseController
     @image = Image.new(image_params)
 
     if @image.save
-      redirect_to [:admin, @image], notice: 'Image was successfully created.'
+      redirect_to admin_images_path, notice: 'Image was successfully created.'
     else
       render action: 'new'
     end
@@ -33,7 +33,7 @@ class Admin::ImagesController < Admin::BaseController
   # PATCH/PUT /admin/images/1
   def update
     if @image.update(image_params)
-      redirect_to [:admin, @image], notice: 'Image was successfully updated.'
+      redirect_to admin_images_path, notice: 'Image was successfully updated.'
     else
       render action: 'edit'
     end

@@ -1,5 +1,6 @@
 <h1>Listing posts</h1>
 
+<%= link_to 'New Post', new_admin_post_path, class: 'btn btn-primary' %>
 <table class="table table-striped">
   <thead>
     <tr>
@@ -13,9 +14,13 @@
       <tr class="<%= 'warning' unless post.published %>">
         <td><%= post.title %></td>
         <td>
-          <%= link_to 'Show', post %> |
-          <%= link_to 'Edit', edit_admin_post_path(post) %> |
-          <%= link_to 'Destroy', post, method: :delete, data: { confirm: 'Are you sure?' } %>
+          <%= link_to 'Edit', edit_admin_post_path(post), class: 'btn btn-sm btn-default' %>
+          <%= link_to 'Show', post, target: :blank, class: 'btn btn-sm btn-default' %>
+          <%= link_to raw('<span class="glyphicon glyphicon-trash"></span>'), [:admin, post],
+            method: :delete,
+            class: 'btn btn-sm btn-default',
+            data: { confirm: 'Are you sure?' }
+          %>
         </td>
       </tr>
     <% end %>
@@ -24,4 +29,4 @@
 
 <br>
 
-<%= link_to 'New Post', new_admin_post_path %>
+<%= link_to 'New Post', new_admin_post_path, class: 'btn btn-primary' %>
