@@ -2,49 +2,26 @@
   <%= f.error_notification %>
   <div class="container-fluid">
     <div class="row">
-      <div class="col-sm-4">
+      <div class="col-sm-8">
+        <%= f.input :published, wrapper: :checkbox, label: nil %>
         <%= f.input :published_at, as: :string %>
-      </div>
-      <div class="col-sm-2">
-        <%= f.input :published, wrapper: :checkbox %>
-
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="">
-            Option one is this and that&mdash;be sure to include why it's great
-          </label>
-        </div>
-      </div>
-      <div class="col-sm-6">
-        <!-- placeholder -->
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-6">
         <%= f.input :slug %>
-      </div>
-      <div class="col-sm-6">
         <%= f.input :title %>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-sm-12">
-        <%= f.association :categories, as: :check_boxes, wrapper: :checkbox %>
-
-        <label class="checkbox-inline">
-          <input type="checkbox" id="inlineCheckbox1" value="option1"> 1
-        </label>
-        <label class="checkbox-inline">
-          <input type="checkbox" id="inlineCheckbox2" value="option2"> 2
-        </label>
-        <label class="checkbox-inline">
-          <input type="checkbox" id="inlineCheckbox3" value="option3"> 3
-        </label>
+      <div class="col-sm-4">
+        <label>Categories</label>
+        <!-- bit of a hack with label: '' but that's the best we could do
+        to get bootstrap checkboxes looking OK -->
+        <%= f.association :categories, as: :check_boxes, wrapper: :checkbox, label: '' %>
       </div>
     </div>
 
+    <div class="row">
+      <div class="col-sm-6">
+      </div>
+      <div class="col-sm-6">
+      </div>
+    </div>
     <div class="row">
       <div class="col-sm-12" style="display: none;">
         <%= f.input :blurb %>
