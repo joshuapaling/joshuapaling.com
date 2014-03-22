@@ -28,15 +28,11 @@
 
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="#">
-            <%= ' Signed in as ' + current_user.email unless current_user.nil? %></h1>
-          </a>
+
+          <%= link_to (raw('<span class="glyphicon glyphicon-user"></span> &nbsp;&nbsp;') + current_user.email), edit_user_registration_path %>
         </li>
         <li>
-          <%= link_to 'My Account', edit_user_registration_path %>
-        </li>
-        <li>
-          <%= link_to 'Logout', destroy_user_session_path, method: :delete %>
+          <%= link_to raw('<span class="glyphicon glyphicon-log-out"></span>'), destroy_user_session_path, method: :delete %>
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
