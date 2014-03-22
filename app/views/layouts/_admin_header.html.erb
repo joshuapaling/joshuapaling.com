@@ -15,13 +15,13 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li>
+        <li class="<%= 'active' if params[:controller] == 'admin/posts' %>">
           <%= link_to 'Posts', admin_posts_path %>
         </li>
-        <li>
+        <li class="<%= 'active' if params[:controller] == 'admin/categories' %>">
           <%= link_to 'Categories', admin_categories_path %>
         </li>
-        <li>
+        <li class="<%= 'active' if params[:controller] == 'admin/images' %>">
           <%= link_to 'Images', admin_images_path %>
         </li>
       </ul>
