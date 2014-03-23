@@ -24,9 +24,12 @@ group :development do
   gem 'rvm-capistrano'
 
   gem 'better_errors'
-  gem 'rails-footnotes', '>= 3.7.9'
+  # gem 'rails-footnotes', :github => 'josevalim/rails-footnotes'
+  # Use my own version for now...
+  gem 'rails-footnotes', :path => '../../rails-footnotes'
   gem "schema_to_scaffold", "~> 0.5.0"
   gem "rails-admin-scaffold", "~> 0.0.2"
+  gem 'pry'
 end
 
 gem 'redcarpet'

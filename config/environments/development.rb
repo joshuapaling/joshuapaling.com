@@ -30,3 +30,8 @@ JoshuaPaling::Application.configure do
 
   config.eager_load = false
 end
+
+silence_warnings do
+  require 'pry'
+  IRB = Pry
+end
