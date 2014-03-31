@@ -24,9 +24,9 @@ group :development do
   gem 'rvm-capistrano'
 
   gem 'better_errors'
-  # gem 'rails-footnotes', :github => 'josevalim/rails-footnotes'
+  gem 'rails-footnotes', :github => 'josevalim/rails-footnotes'
   # Use my own version for now...
-  gem 'rails-footnotes', :path => '../../rails-footnotes'
+  # gem 'rails-footnotes', :path => '../../rails-footnotes'
   gem "schema_to_scaffold", "~> 0.5.0"
   gem "rails-admin-scaffold", "~> 0.0.2"
   gem 'pry'

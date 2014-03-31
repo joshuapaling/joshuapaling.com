@@ -1,5 +1,6 @@
-PATH
-  remote: ../../rails-footnotes
+GIT
+  remote: git://github.com/josevalim/rails-footnotes.git
+  revision: 8411b4cec668b133ec3f7d3be6d39e77ee3abe9e
   specs:
     rails-footnotes (4.0.0)
       rails (>= 3.2)
