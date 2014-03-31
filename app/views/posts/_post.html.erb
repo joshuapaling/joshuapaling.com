@@ -22,9 +22,13 @@
   <%= post.content(post.blurb).html_safe %>
   <% if params[:action] == 'show' %>
     <%= post.content(post.body).html_safe %>
-    <%= render :partial => 'social_links' %>
+    <footer>
+      <%= render :partial => 'social_links' %>
+    </footer>
   <% else %>
-    <%= link_to "More ›", post_path(post.slug), class: 'more' %>
+    <footer>
+      <%= link_to "More ›", post_path(post.slug), class: 'more' %>
+    </footer>
   <% end %>
 
   <% #DevHub q › why can you access the model direct form the view? And shouldn't content rendering be the responsibility of the view? %>
