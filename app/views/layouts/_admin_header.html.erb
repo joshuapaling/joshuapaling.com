@@ -26,15 +26,17 @@
         </li>
       </ul>
 
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-
-          <%= link_to (raw('<span class="glyphicon glyphicon-user"></span> &nbsp;&nbsp;') + current_user.email), edit_user_registration_path %>
-        </li>
-        <li>
-          <%= link_to raw('<span class="glyphicon glyphicon-log-out"></span>'), destroy_user_session_path, method: :delete %>
-        </li>
-      </ul>
+      <% begin current_user.email %>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <%= link_to (raw('<span class="glyphicon glyphicon-user"></span> &nbsp;&nbsp;') + current_user.email), edit_user_registration_path %>
+          </li>
+          <li>
+            <%= link_to raw('<span class="glyphicon glyphicon-log-out"></span>'), destroy_user_session_path, method: :delete %>
+          </li>
+        </ul>
+      <% rescue %>
+      <% end %>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
