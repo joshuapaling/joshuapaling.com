@@ -1,0 +1,27 @@
+<script>
+ $(function(){
+  $('.cell').click(function(){
+    $(this).toggleClass('alive');
+  });
+ });
+</script>
+
+<div class="conways">
+  <h1 class="page-title">Conways's</h1>
+  <p>The board below isn't an implementation of Conway's Game of Life. But you can use it to manually run through scenarios and gain understanding of the game, as an alternative to using scrap paper. Click a cell to toggle between alive/dead.</p>
+
+  <p>I also wrote <a href="/post/tips-for-conways-game-of-life" target="_blank">a post</a> with suggested steps for newer devs, and mentors working with newer devs (TL;DR: don't dive straight into TDD).</p>
+
+  <div class="conways_world">
+    <% for y in 0..9 %>
+      <% for x in 0..9 %>
+        <div class="cell">
+          <%= x %>, <%= y %>
+        </div>
+      <% end %>
+      <div style="clear: both;"></div>
+    <% end %>
+  </div>
+</div>
+
+

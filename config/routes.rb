@@ -24,6 +24,7 @@ JoshuaPaling::Application.routes.draw do
 
   get '/about', :to => 'pages#about'
   get '/o-and-x', :to => 'pages#o_and_x'
+  get '/conways', :to => 'pages#conways'
 
   namespace :admin do
     root 'posts#index'

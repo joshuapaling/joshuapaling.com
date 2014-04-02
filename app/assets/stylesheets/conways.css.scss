@@ -1,0 +1,45 @@
+// Place all the styles related to o and x's here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+.game-over, .whos-turn {
+  text-align: center;
+}
+
+.game-over {
+  color: $blue;
+}
+
+$cell-size: 70px;
+
+.conways_world {
+  margin: 25px;
+  width: $cell-size * 10;
+  height: $cell-size * 10;
+  margin-left: auto;
+  margin-right: auto;
+
+  .cell {
+    font-family: Consolas, monaco, monospace;
+    width: $cell-size;
+    height: $cell-size;
+    float: left;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    box-sizing: border-box;
+
+    &:hover {
+      background: rgba($blue, 0.2);
+    }
+  }
+
+  .cell.alive {
+    background: $blue;
+    color: #fff;
+  }
+
+}
