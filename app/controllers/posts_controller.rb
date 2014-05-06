@@ -26,7 +26,7 @@ class PostsController < ApplicationController
   # GET /post/my-slug
   # GET /post/my-slug.json
   def show
-    @post = Post.published.find_by_slug(params[:slug])
+    @post = Post.find_by_slug(params[:slug])
 
     if @post.nil?
       raise ActiveRecord::RecordNotFound
