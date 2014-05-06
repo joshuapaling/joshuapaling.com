@@ -10,7 +10,7 @@ $title-font: "kepler-std", Georgia, Times, serif;
 }
 
 body {
-  font-family: $title-font;
+  font-family: Helvetica, sans-serif;
   color: #333;
   border-top: 3px solid $blue;
   font-size: 16px;
@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
+  font-family: $title-font;
   font-size: 2rem;
   margin-top: 1rem;
   margin-bottom: 0.5rem;
