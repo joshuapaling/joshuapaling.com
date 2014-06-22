@@ -23,9 +23,9 @@ group :development do
   gem "capistrano", "~> 2.15.5"
 
   gem 'better_errors'
-  # gem 'rails-footnotes', :github => 'josevalim/rails-footnotes'
+  gem 'rails-footnotes', :github => 'josevalim/rails-footnotes'
   # Use my own version for now...
-  gem 'rails-footnotes', :path => '../../rails-footnotes'
+  # gem 'rails-footnotes', :path => '../../rails-footnotes'
   gem "schema_to_scaffold", "~> 0.5.0"
   gem "rails-admin-scaffold", "~> 0.0.5"
   gem 'pry'
@@ -57,3 +57,4 @@ gem 'epic-editor-rails'
 gem 'bootstrap-sass', '~> 3.1.1'
 
 gem 'protected_attributes'
+gem 'rvm-capistrano'
