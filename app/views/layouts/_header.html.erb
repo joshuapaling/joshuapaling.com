@@ -9,7 +9,7 @@
     <%= link_to 'about', '/about', class: currentClass %>
 
     <% currentClass = (request.fullpath == '/o-and-x')? 'current' : '' %>
-    <%= link_to 'o & x', '/o-and-x', class: currentClass %>
+    <%#= link_to 'o & x', '/o-and-x', class: currentClass %>
 
     <%= link_to raw('<span aria-hidden="true" class="icon-github"></span>'), 'https://github.com/joshuapaling', target: 'blank' %>
     <%= link_to raw('<span aria-hidden="true" class="icon-stackoverflow"></span>'), 'http://stackoverflow.com/users/1373987/joshua-paling', target: 'blank' %>
