@@ -61,5 +61,8 @@ module JoshuaPaling
 
     config.i18n.enforce_available_locales = true
     I18n.enforce_available_locales = true
+
+    config.action_dispatch.cookies_serializer = :hybrid
+
   end
 end

@@ -21,3 +21,4 @@
 # ignore database config
 config/database.yml
 /public/uploads/
+/config/secrets.yml
