@@ -10,6 +10,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'compass-rails'
 gem 'jquery-rails'
 
+gem 'rails_12factor', group: :production
+
 group :test, :development do
   gem "rspec-rails", "~> 2.0"
   gem 'binding_of_caller'
