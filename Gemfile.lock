@@ -1,8 +1,8 @@
 GIT
   remote: git://github.com/josevalim/rails-footnotes.git
-  revision: 0ea597b64604bd88b126019619425d5bec288806
+  revision: adda2d0fcbf470c9edf07efc48897b5159ffc21c
   specs:
-    rails-footnotes (4.0.1)
+    rails-footnotes (4.0.2)
       rails (>= 3.2)
 
 GIT

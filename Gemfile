@@ -56,5 +56,5 @@ gem 'simple_form', github: 'plataformatec/simple_form' # http://stackoverflow.co
 gem 'epic-editor-rails'
 gem 'bootstrap-sass', '~> 3.1.1'
 
-gem 'protected_attributes'
-gem 'rvm-capistrano'
+gem 'protected_attributes' # had to add this to upgrade to rails 4.1 - should be able to change code to use strong params then remove this gem.
+gem 'rvm-capistrano' # I think this handles rvm on the server side, on deployment.
