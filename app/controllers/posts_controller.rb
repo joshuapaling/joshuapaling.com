@@ -37,4 +37,10 @@ class PostsController < ApplicationController
       format.json { render json: @post }
     end
   end
+
+  private
+
+  def person_params
+    params.require(:post).permit(:published, :published_at, :slug, :title, :category_ids, :blurb, :body)
+  end
 end
