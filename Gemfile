@@ -56,9 +56,11 @@ gem 'simple_form', github: 'plataformatec/simple_form' # http://stackoverflow.co
 
 
 # FOR ADMIN AREA
-gem 'epic-editor-rails'
+gem 'epic-editor-rails', github: 'joshuapaling/epic-editor-rails'
+# gem 'epic-editor-rails', path: '~/dev/OPEN_SOURCE_PROJECTS/epic-editor-rails'
+
 gem 'bootstrap-sass', '~> 3.1.1'
 
 gem 'rvm-capistrano' # I think this handles rvm on the server side, on deployment.
 
- gem 'unicorn'
+gem 'unicorn'

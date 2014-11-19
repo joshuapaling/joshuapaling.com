@@ -6,6 +6,13 @@ GIT
       rails (>= 3.2)
 
 GIT
+  remote: git://github.com/joshuapaling/epic-editor-rails.git
+  revision: a8c4d59e321416b38ecbc9a5927a4fc4607e3004
+  specs:
+    epic-editor-rails (0.2.3)
+      railties (>= 3.2, < 5.0)
+
+GIT
   remote: git://github.com/plataformatec/simple_form.git
   revision: 66ed5ee46cd6b01b4c47c53b74a85ad171a88bfa
   specs:
@@ -113,8 +120,6 @@ GEM
       execjs
     eco-source (1.1.0.rc.1)
     ejs (1.1.1)
-    epic-editor-rails (0.2.3)
-      railties (>= 3.2, < 5.0)
     erubis (2.7.0)
     execjs (2.2.0)
     fssm (0.2.10)
@@ -264,7 +269,7 @@ DEPENDENCIES
   coffee-rails (~> 4.0.0)
   compass-rails
   devise (= 3.2.4)
-  epic-editor-rails
+  epic-editor-rails!
   jquery-rails
   kaminari
   pg
